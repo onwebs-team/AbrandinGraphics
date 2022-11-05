@@ -1,0 +1,28 @@
+fonts
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+Poller One
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800&family=Poller+One&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    font-family: 'Poller One', cursive;
+
+    font-weight: 400
+
+Ploni ML v2 AAA
+
+    link missing
+
+    font-family: 'Ploni ML v2 AAA';
+
+    font-weight: 300
+
+Podkova
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800&family=Podkova&family=Poller+One&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    font-family: 'Podkova', serif;
+
+    font-weight: 400
