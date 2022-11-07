@@ -7,6 +7,7 @@ import Rebranding from '../../components/home/rebranding/rebranding-component';
 import Quote from '../../components/home/quote/quote-component';
 import Clients from '../../components/home/clients/clients-component';
 import ContactUs from '../../components/contactUs/contactUs';
+import Goal from '../../components/home/goal/goal.component'
 
 function Home(props) {
     return (
@@ -18,6 +19,7 @@ function Home(props) {
             <Rebranding />
             <Quote />
             <Clients />
+            <Goal/>
             <ContactUs />
         </div>
     );
