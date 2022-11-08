@@ -1,0 +1,23 @@
+.logos {
+    background-color: black;
+    color: white;
+    .logos-examples {
+        .logos-two-pictures {
+            display: flex;
+            justify-content: center;
+            .logos-img {
+                width: 618.86px;
+                height: 361px;
+            }
+
+            .logos-img-right {
+                margin-left: 77px;
+            }
+        }
+    }
+    .logos-button {
+        text-align: center;
+        margin-top: 185px;
+        padding-bottom: 220px;
+    }
+}

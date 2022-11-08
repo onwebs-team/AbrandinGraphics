@@ -1,0 +1,38 @@
+.social {
+    background-color: black;
+    color: white;
+    .social-examples {
+        .social-five-pictures {
+            display: flex;
+            justify-content: center;
+            .social-hightlight {
+                margin-left: 45px;
+                width: 162px;
+                height: 287.76px;
+            }
+        }
+        .social-pictures {
+            text-align: center;
+            margin: 130px 0;
+            .social-mockup {
+                width: 343.71px;
+                height: 704.84px;
+            }
+        }
+        .social-three-pictures {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 45.37px;
+            .social-post {
+                margin-left: 56px;
+                width: 296.58px;
+                height: 301.54px;
+            }
+        }
+    }
+    .social-button {
+        text-align: center;
+        margin-top: 185px;
+        padding-bottom: 220px;
+    }
+}

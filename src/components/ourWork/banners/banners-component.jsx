@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+
 import './Banners.scss'
 import Post from './img/Post.jpg'
 import Story from './img/Story.jpg'
@@ -10,6 +12,13 @@ import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
 function BannersComponent(props) {
+
+    const navigate = useNavigate();
+    const nextPage = () => {
+        navigate("/landing", { replace: true });
+        window.scrollTo({top: 0, left: 0});
+    }
+
     return (
         <div className='banners'>
             <Header header='banners' des='Of any size and media' />
@@ -40,7 +49,7 @@ function BannersComponent(props) {
                     <img className='banner-trullion' src={TrullionPost} alt="" />
                 </div>
             </div>
-            <div className="benners-button"><Button text='NEXT' /></div>
+            <div className="benners-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+
 import './prints.css'
 import Post from './img-3/Business card.png'
 
@@ -10,6 +12,13 @@ import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
 function PrintComponent(props) {
+
+    const navigate = useNavigate();
+    const nextPage = () => {
+        navigate("/logos", { replace: true });
+        window.scrollTo({top: 0, left: 0});
+    }
+
     return (
         <div className='prints'>
             <Header header='prints' des='Business cards, books, notebooks, etc.' />
@@ -35,7 +44,7 @@ function PrintComponent(props) {
                 </div>
                
             </div>
-            <div className="print-button"><Button text='NEXT' /></div>
+            <div className="print-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+
 import './Landing.scss'
 import MacBookPro161728w from './img/MacBookPro161728w.jpg'
 import iPadPro121024w from './img/iPadPro121024w.jpg'
@@ -9,6 +11,13 @@ import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
 function LandingComponent(props) {
+
+    const navigate = useNavigate();
+    const nextPage = () => {
+        navigate("/print", { replace: true });
+        window.scrollTo({top: 0, left: 0});
+    }
+
     return (
         <div className='landing'>
             <Header header='landing pages' des='On Wordpress, Elementor, Wix, html - css' />
@@ -32,7 +41,7 @@ function LandingComponent(props) {
                     </div>
                 </div>
             </div>
-            <div className="landing-button"><Button text='NEXT' /></div>
+            <div className="landing-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

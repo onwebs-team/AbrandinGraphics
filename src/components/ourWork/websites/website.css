@@ -7,10 +7,8 @@
 }
 
 .website-post {
-    width: 800px;
-   height: 557.83px;
-    
-    margin-left: 140%;
+    width: 990.34px;
+    height: 557px;
     padding-bottom: 5rem;
  text-align: center;
    
@@ -26,10 +24,7 @@
 
 }
 .website-one-pictures {
-    display: flex;
-    text-align: center;        
-    width: 447px;
-    height: 447px;
+    text-align: center;
 }
 .website-button {
     text-align: center;

@@ -1,0 +1,24 @@
+.presentations {
+    background-color: black;
+    color: white;
+    .presentations-examples {
+        .presentations-two-pictures {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 72px;
+            .presentations-img {
+                width: 620.91px;
+                height: 350px;
+            }
+
+            .presentations-img-right {
+                margin-left: 72px;
+            }
+        }
+    }
+    .presentations-button {
+        text-align: center;
+        margin-top: 185px;
+        padding-bottom: 220px;
+    }
+}

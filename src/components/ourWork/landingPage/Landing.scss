@@ -40,6 +40,7 @@
         }
         .landing-two-pictures {
             display: flex;
+            justify-content: center;
             margin-top: 246px;
             .landing-pro {
                 img {
@@ -47,14 +48,12 @@
                     height: 732px;
                 }
                 margin-right: 158.11px;
-                margin-left: 304px;
             }
             .landing-android {
                 img {
                     width: 340.47px;
                     height: 732px;
                 }
-                margin-right: 302.53px;
             }
             .landing-device {
                 font-family: 'Ploni ML v2 AAA';

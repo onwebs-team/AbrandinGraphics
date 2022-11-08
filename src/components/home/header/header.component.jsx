@@ -4,6 +4,9 @@ import Button from "../../button/button-component"
 import ImageHeader from './ImageHeader.png'
 
 function Header(props) {
+
+    const scroll = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+
     return (
         <div className="header">
             <div className='header-container'>
@@ -14,7 +17,7 @@ function Header(props) {
                         <div>design studio</div>
                     </div>
                     <div className="header-button">
-                        <Button text={'CONTACT US'}/>
+                        <Button text={'CONTACT US'} work={scroll} />
                     </div>
                 </div>
                 <div className="header-photo">

@@ -4,16 +4,15 @@
     .banner-examples {
         .banner-two-pictures {
             display: flex;
+            justify-content: center;
             .banner-post {
                 width: 450px;
                 height: 450px;
                 margin-right: 70px;
-                margin-left: 485px;
             }
             .banner-story {
                 width: 450px;
                 height: 800px;
-                margin-right: 456px;
             }
         }
         .banner-pictures {
