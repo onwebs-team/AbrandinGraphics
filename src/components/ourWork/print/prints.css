@@ -1,0 +1,34 @@
+
+.prints {
+    background-color: black;
+    color: white;
+
+}
+.print-two-pictures{
+    
+    text-align: center;
+
+}
+.print-post{
+    width: 900px;
+    height: 600px;
+    
+   
+    
+
+}
+.print-pictures{
+    text-align: center;
+}
+.print-hasbara{
+    text-align: center;
+    width: 621px;
+height: 350px;
+padding: 0.5rem;
+
+}
+.print-button{
+    text-align: center;
+    margin-top: 185px;
+    padding-bottom: 80px;
+}

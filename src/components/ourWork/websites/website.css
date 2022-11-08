@@ -1,0 +1,50 @@
+
+
+.website {
+    background-color: black;
+    color: white;
+   
+}
+
+.website-post {
+    width: 800px;
+   height: 557.83px;
+    
+    margin-left: 140%;
+    padding-bottom: 5rem;
+ text-align: center;
+   
+}
+.website-pictures {
+    
+    text-align: center;
+}
+.website-story {
+    width: 990px;
+    height: 2078.48px;
+   
+
+}
+.website-one-pictures {
+    display: flex;
+    text-align: center;        
+    width: 447px;
+    height: 447px;
+}
+.website-button {
+    text-align: center;
+    margin-top: 185px;
+    padding-bottom: 80px;
+}
+
+.website-pictures .website-hasbara {
+   
+    text-align: center;
+    width: 990px;
+    height: 2078.48px;
+   
+    
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+    }
