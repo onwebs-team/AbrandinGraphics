@@ -1,0 +1,23 @@
+.button {
+    button {
+        width: 305px;
+        height: 65px;
+    
+        background: #1FAD7D;
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: 'Ploni ML v2 AAA';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        background: #F1F2CF;
+    }
+}

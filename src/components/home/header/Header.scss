@@ -1,0 +1,36 @@
+.header {
+    width: 1920px;
+    height: 855.05px;
+    background-color: #000000;
+    color: white;
+
+    .header-container {
+        padding-top: 264px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .header-info {
+            margin-left: 324px;
+            width: calc(1294px - 563.49px);;
+
+            .header-text {
+                font-family: 'Poller One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 65px;
+            }
+            .header-button {
+                padding-top: 130px;
+            }
+        }
+        .header-photo {
+            margin-right: 303px;
+
+            img {
+                width: 563.49px;
+                height: 451px;
+            }
+        }
+    }
+}

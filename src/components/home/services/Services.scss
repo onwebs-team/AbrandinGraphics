@@ -1,0 +1,60 @@
+
+.services-container {
+    width: 68%;
+    margin: auto;
+    margin-bottom: 120px;
+    .service-header {
+        margin-top: 120px;
+        margin-bottom: 70px;
+        h1 {
+            font-family: 'Poller One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 70px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        div {
+            font-family: 'Ploni ML v2 AAA';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+    
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 150px;
+        grid-row-gap: 70px;
+
+        .service {
+            width: 100%;
+            text-align: center;
+            img {
+                width: 101px;
+                height: 101px;
+            }
+            h1 {
+                font-family: 'Podkova';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            div {
+                font-family: 'Ploni ML v2 AAA';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+    }
+}

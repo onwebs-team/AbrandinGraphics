@@ -1,0 +1,74 @@
+.landing {
+    background-color: black;
+    color: white;
+    .landing-header {
+        font-family: 'Poller One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 70px;
+        text-align: center;
+        margin: 0;
+        padding-top: 253px;
+    }
+    .landing-des {
+        font-family: 'Ploni ML v2 AAA';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .landing-examples {
+        .landing-example-text {
+            margin-top: 110px;
+            margin-bottom: 152px;
+            font-family: 'Ploni ML v2 AAA';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+        .landing-pictures {
+            text-align: center;
+            .landing-mac {
+                width: 990px;
+                height: 1960.52px;
+            }
+        }
+        .landing-two-pictures {
+            display: flex;
+            margin-top: 246px;
+            .landing-pro {
+                img {
+                    width: 787.89px;
+                    height: 732px;
+                }
+                margin-right: 158.11px;
+                margin-left: 304px;
+            }
+            .landing-android {
+                img {
+                    width: 340.47px;
+                    height: 732px;
+                }
+                margin-right: 302.53px;
+            }
+            .landing-device {
+                font-family: 'Ploni ML v2 AAA';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 22px;
+                margin-bottom: 45px;
+            }
+        }
+    }
+    .landing-button {
+        text-align: center;
+        margin-top: 185px;
+        padding-bottom: 220px;
+    }
+}
