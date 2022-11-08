@@ -1,9 +1,9 @@
-.contact-container{
-	background-color: white;
-	.contact-box {
+.black-contact-container{
+	background-color: black;
+	.black-contact-box {
 		padding-top: 97px;
 		h2 {
-			color: black;
+			color: white;
 			font-family: 'Ploni ML v2 AAA';
 			font-size: 18px;
 			line-height: 20px;
@@ -12,7 +12,7 @@
 			margin: 0;
 			padding: 0.5rem;
 		}
-		.contact-form{
+		.black-contact-form{
 			width: 305px;
 			height: 535px;
 			margin: auto;
@@ -20,7 +20,7 @@
 			.field{
 				width: 305px;
 				height: 65px;
-				background: black;
+				background: white;
 				border-radius: 10px;
 				margin-top: 30px;
 
@@ -28,12 +28,12 @@
 				font-family: 'Ploni ML v2 AAA';
 				font-size: 18px;
 				line-height: 23px;
-				color: white;
+				color: black;
 			}
 			textarea{
 				min-height: 130px;
 			}
-			.contact-button {
+			.black-contact-button {
 				margin-top: 55px;
 			}
 			::placeholder {
@@ -41,12 +41,12 @@
 				font-family: 'Ploni ML v2 AAA';
 				font-size: 18px;
 				line-height: 23px;
-				color: white;
+				color: black;
 			}
 		}
 	}
 	p {
-		color: black;
+		color: white;
 		margin: 0;
 		margin-left: 182px;
 		margin-top: 70px;
