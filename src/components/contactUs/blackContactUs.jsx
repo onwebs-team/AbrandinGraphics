@@ -1,11 +1,12 @@
 //import React, { useRef } from "react";
 //import emailjs from "@emailjs/browser";
+import './Contact.scss'
 import './BlackContact.scss'
 import Button from '../button/button-component'
 
 // npm i @emailjs/browser
 
-const BlackContactUs = () => {
+const ContactUs = () => {
  // const form = useRef();
 
   //const sendEmail = (e) => {
@@ -30,17 +31,17 @@ const BlackContactUs = () => {
 //   };
 
   return (
-    <div className="black-contact-container">
-		<div className="black-contact-box">
+    <div className="contact-container black-contact-container">
+		<div className="contact-box black-contact-box">
 			<h2>aboutiquestudio@gmail.com</h2>
 			<h2>+972 523153355</h2>
 			<h2>Hameshulash 4, Emek Hefer, Israel</h2>
-			<div className="black-contact-form">
+			<div className="contact-form black-contact-form">
 				<input type="text" className="field" placeholder="Name"/>
 				<input type="text" className="field" placeholder="Email"/>
 				<input type="text" className="field" placeholder="Subject"/>
 				<textarea placeholder="Message" className="field"></textarea>
-				<div className="black-contact-button"><Button text='Send' /></div>
+				<div className="contact-button black-contact-button"><Button text='SEND' /></div>
 			</div>
 		</div>
 		<p><i className="fa-regular fa-copyright"></i> 2022 onweb. All rights reserved.</p>
@@ -48,4 +49,4 @@ const BlackContactUs = () => {
   );
 };
 
-export default BlackContactUs;
+export default ContactUs;

@@ -1,9 +1,7 @@
 .contact-container{
-	background-color: white;
 	.contact-box {
 		padding-top: 97px;
 		h2 {
-			color: black;
 			font-family: 'Ploni ML v2 AAA';
 			font-size: 18px;
 			line-height: 20px;
@@ -20,7 +18,6 @@
 			.field{
 				width: 305px;
 				height: 65px;
-				background: black;
 				border-radius: 10px;
 				margin-top: 30px;
 
@@ -28,25 +25,22 @@
 				font-family: 'Ploni ML v2 AAA';
 				font-size: 18px;
 				line-height: 23px;
-				color: white;
 			}
 			textarea{
+				padding-top: 20px;
 				min-height: 130px;
 			}
 			.contact-button {
 				margin-top: 55px;
 			}
 			::placeholder {
-				padding-top: 20px;
 				font-family: 'Ploni ML v2 AAA';
 				font-size: 18px;
 				line-height: 23px;
-				color: white;
 			}
 		}
 	}
 	p {
-		color: black;
 		margin: 0;
 		margin-left: 182px;
 		margin-top: 70px;
@@ -55,4 +49,49 @@
 		font-size: 15px;
 		line-height: 27px;
 	}
+}
+
+// MacBook Pro 16
+@media (max-width: 1728px) {
+
+}
+
+// MacBook Pro 14
+@media (max-width: 1512px) {
+    
+}
+
+// Desktop
+@media (max-width: 1440px) {
+    
+}
+
+// MacBook Pro air
+@media (max-width: 1280px) {
+    
+}
+
+// IPad Pro 12.9
+@media (max-width: 1024px) {
+    
+}
+
+// IPad Pro 11
+@media (max-width: 834px) {
+    
+}
+
+// Iphone 14 Pro Max
+@media (max-width: 430px) {
+    
+}
+
+// Iphone 14
+@media (max-width: 390px) {
+    
+}
+
+// Android Large
+@media (max-width: 360px) {
+    
 }

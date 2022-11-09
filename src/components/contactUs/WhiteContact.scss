@@ -1,0 +1,20 @@
+.white-contact-container{
+	background-color: white;
+	.white-contact-box {
+		h2 {
+			color: black;
+		}
+		.white-contact-form{
+			.field{
+				background: black;
+				color: white;
+			}
+			::placeholder {
+				color: white;
+			}
+		}
+	}
+	p {
+		color: black;
+	}
+}

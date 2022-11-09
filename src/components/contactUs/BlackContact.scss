@@ -1,58 +1,20 @@
 .black-contact-container{
 	background-color: black;
 	.black-contact-box {
-		padding-top: 97px;
 		h2 {
 			color: white;
-			font-family: 'Ploni ML v2 AAA';
-			font-size: 18px;
-			line-height: 20px;
-			text-align: center;
-			text-decoration-line: underline;
-			margin: 0;
-			padding: 0.5rem;
 		}
 		.black-contact-form{
-			width: 305px;
-			height: 535px;
-			margin: auto;
-			margin-top: 50px;
 			.field{
-				width: 305px;
-				height: 65px;
 				background: white;
-				border-radius: 10px;
-				margin-top: 30px;
-
-				padding-left: 17px;
-				font-family: 'Ploni ML v2 AAA';
-				font-size: 18px;
-				line-height: 23px;
 				color: black;
 			}
-			textarea{
-				min-height: 130px;
-			}
-			.black-contact-button {
-				margin-top: 55px;
-			}
 			::placeholder {
-				padding-top: 20px;
-				font-family: 'Ploni ML v2 AAA';
-				font-size: 18px;
-				line-height: 23px;
 				color: black;
 			}
 		}
 	}
 	p {
 		color: white;
-		margin: 0;
-		margin-left: 182px;
-		margin-top: 70px;
-		padding-bottom: 30px;
-		font-family: 'Ploni ML v2 AAA';
-		font-size: 15px;
-		line-height: 27px;
 	}
 }

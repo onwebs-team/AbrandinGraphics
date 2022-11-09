@@ -7,7 +7,7 @@ import Rebranding from '../../components/home/rebranding/rebranding-component';
 import Quote from '../../components/home/quote/quote-component';
 import Clients from '../../components/home/clients/clients-component';
 import Goal from '../../components/home/goal/goal.component';
-import BlackContactUs from '../../components/contactUs/blackContactUs';
+import ContactUs from '../../components/contactUs/blackContactUs';
 
 function Home(props) {
     return (
@@ -18,9 +18,9 @@ function Home(props) {
             <Branding />
             <Rebranding />
             <Quote />
-            <Clients />
+            {/* <Clients /> */}
             <Goal/>
-            <BlackContactUs />
+            <ContactUs />
         </div>
     );
 }
