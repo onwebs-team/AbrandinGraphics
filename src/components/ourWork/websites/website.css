@@ -47,45 +47,217 @@
 
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 819.13px;
+    height: 500.13px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 818.39px;
+     height: 1800.19px;
+     padding-top: 0rem;
+
+
+     
+   }
 
 }
 
 /* MacBook Pro 14 */
 @media (max-width: 1512px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 682.61px;
+    height: 420.28px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 681.99px;
+    height: 1431.83px;
+     padding-top: 0rem;
+
+
+     
+   }
     
 }
 
 /* Desktop */
 @media (max-width: 1440px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 682.61px;
+    height: 410.28px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 681.99px;
+    height: 1431.83px;
+     padding-top: 0rem;
+
+
+     
+   }
     
 }
 
 /* MacBook Pro air */
 @media (max-width: 1280px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 682.61px;
+    height: 440.28px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 681.99px;
+    height: 1431.83px;
+     padding-top: 0rem;
+
+
+     
+   }
+
+  
     
 }
 
 /* IPad Pro 12.9 */
 @media (max-width: 1024px) {
-    
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 534px;
+    height: 350.62px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 533.52px;
+    height: 1120.11px;
+     padding-top: 0rem;
+
+
+     
+   }
+
+ 
 }
 
 /* IPad Pro 11 */
 @media (max-width: 834px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 480px;
+    height: 350.62px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 533.52px;
+    height: 1120.11px;
+     padding-top: 0rem;
+
+     
+   }
     
 }
 
 /* Iphone 14 Pro Max */
-@media (max-width: 430px) {
+@media (max-width: 700px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 305px;
+      height: 250.71px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 305px;
+     height: 750.34px;
+     padding-top: 0rem;
+
+     
+   }
     
 }
 
 /* Iphone 14 */
 @media (max-width: 390px) {
+    .website{
+
+        width: 100%;
+
+    }
+
+   .website-post{
+    width: 305px;
+      height: 250.71px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 305px;
+     height: 750.34px;
+     padding-top: 0rem;
+
+     
+   }
     
 }
 
 /* Android Large */
 @media (max-width: 360px) {
-    
+    .website{
+
+        width: 125%;
+
+    }
+
+   .website-post{
+    width: 305px;
+      height: 250.71px;
+     
+   }
+   .website-pictures .website-hasbara{
+    width: 305px;
+     height: 750.34px;
+     padding-top: 0rem;
+
+     
+   }
+   
+   
+   
 }

@@ -16,51 +16,122 @@
         font-size: 22px;
         line-height: 32px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .quote {
+        padding: 103.5px 0;
+        .the-quote {
+            font-size: 31.5px;
+            line-height: 35px;
+        }
+        .author {
+            font-size: 19.8px;
+            line-height: 29px;
+            margin-top: 35px;
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .quote {
+        padding: 90.59px 0;
+        .the-quote {
+            font-size: 27.5716px;
+            line-height: 31px;
+        }
+        .author {
+            font-size: 17.3307px;
+            line-height: 25px;
+            margin-top: 30px;
+        }
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+    .quote {
+        padding: 86.36px 0;
+        .the-quote {
+            font-size: 26.282px;
+            line-height: 29px;
+        }
+        .author {
+            font-size: 16.5201px;
+            line-height: 24px;
+            margin-top: 30px;
+        }
+    }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .quote {
+        padding: 76.81px 0;
+        .the-quote {
+            font-size: 25px;
+            line-height: 28px;
+        }
+        .author {
+            font-size: 17px;
+            line-height: 25px;
+            margin-top: 25px;
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
-}
-
-// IPad Pro 11
-@media (max-width: 834px) {
-    
+    .quote {
+        padding: 100px 0;
+        .the-quote {
+            font-size: 22px;
+            line-height: 24px;
+        }
+        .author {
+            font-size: 17px;
+            line-height: 25px;
+            margin-top: 22px;
+        }
+    }
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
+@media (max-width: 750px) {
+    .quote {
+        padding: 109px 0;
+        .the-quote {
+            width: 44%;
+            margin: auto;
+            font-size: 22px;
+            line-height: 25px;
+        }
+        .author {
+            font-size: 15px;
+            line-height: 22px;
+            margin-top: 22px;
+        }
+    }
 }
 
 // Iphone 14
 @media (max-width: 390px) {
-    
+    .quote {
+        .the-quote {
+            width: 48%;
+        }
+    }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    
+    .quote {
+        .the-quote {
+            width: 55%;
+        }
+    }
 }

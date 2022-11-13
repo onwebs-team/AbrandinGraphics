@@ -44,7 +44,7 @@
         transform: translate(0);
     }
     100% {
-        transform: translate(calc(-250px * 3));
+        transform: translate(calc(-250px * 2));
        
 
 
@@ -55,7 +55,9 @@
 .client .row{
     animation: scroll 20s linear infinite;
     display: flex;
-    width: calc(250px * 4);
+    width: calc(250px * 2);
+    transform: translate(0, -50%);
+    top: 50%;
 
 
 }
@@ -66,45 +68,176 @@
     
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
+    .client {
+        grid-gap: 5rem;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 300.53px;
+        height: 40.3px;
+    }
 
 }
 
 /* MacBook Pro 14 */
 @media (max-width: 1512px) {
+    .client {
+        grid-gap: 5rem;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 300.53px;
+        height: 40.3px;
+    }
+   
     
 }
 
 /* Desktop */
 @media (max-width: 1440px) {
+    .client {
+        grid-gap: 5rem;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 300.53px;
+        height: 40.3px;
+    }
+    
     
 }
 
 /* MacBook Pro air */
 @media (max-width: 1280px) {
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 100.31px;
+        height: 20.79px;
+    }
+    
     
 }
 
 /* IPad Pro 12.9 */
 @media (max-width: 1024px) {
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: -53rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 660.31px;
+        height: 34.79px;
+    }
     
 }
 
 /* IPad Pro 11 */
 @media (max-width: 834px) {
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: -53rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 264.93px;
+        height: 22.39px;
+    }
     
 }
 
 /* Iphone 14 Pro Max */
 @media (max-width: 430px) {
+
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: -53rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 264.93px;
+        height: 22.39px;
+    }
     
 }
 
 /* Iphone 14 */
 @media (max-width: 390px) {
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: -53rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 264.93px;
+        height: 22.39px;
+    }
     
 }
 
 /* Android Large */
 @media (max-width: 360px) {
+
+    .client {
+        grid-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-right: -53rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+      
+      
+    }
+    .client .row img{
+        width: 264.93px;
+        height: 22.39px;
+    }
     
 }

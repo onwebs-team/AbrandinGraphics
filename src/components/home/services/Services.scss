@@ -61,45 +61,285 @@
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .services-container {
+        width: 67%;
+        margin-bottom: 110px;
+        .service-header {
+            margin-top: 90px;
+            margin-bottom: 70px;
+            h1 {
+                font-size: 36.0021px;
+                line-height: 63px;
+            }
+            div {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        
+        .services {
+            grid-row-gap: 60px;
+    
+            .service {
+                img {
+                    width: 90.91px;
+                    height: 90.91px;
+                }
+                h1 {
+                    font-size: 18.001px;
+                    line-height: 20px;
+                }
+                div {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .services-container {
+        width: 67%;
+        margin-bottom: 90px;
+        .service-header {
+            margin-top: 73px;
+            margin-bottom: 60px;
+            h1 {
+                font-size: 31.5122px;
+                line-height: 55px;
+            }
+            div {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        
+        .services {
+            grid-column-gap: 100px;
+            grid-row-gap: 50px;
+            margin-left: -15px;
+            margin-right: -15px;
+            .service {
+                img {
+                    width: 79.57px;
+                    height: 79.57px;
+                }
+                h1 {
+                    font-size: 18.001px;
+                    line-height: 20px;
+                    margin-bottom: 15px;
+                }
+                div {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+    .services-container {
+        width: 67%;
+        margin-bottom: 85px;
+        .service-header {
+            margin-top: 80px;
+            margin-bottom: 55px;
+            h1 {
+                font-size: 29.9948px;
+                line-height: 52px;
+            }
+            div {
+                font-size: 17px;
+                line-height: 25px;
+            }
+        }
+        
+        .services {
+            grid-row-gap: 45px;
+            .service {
+                img {
+                    width: 75.74px;
+                    height: 75.74px;
+                }
+                h1 {
+                    font-size: 17px;
+                    line-height: 19px;
+                }
+                div {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .services-container {
+        width: 67%;
+        margin-bottom: 85px;
+        .service-header {
+            margin-top: 60px;
+            margin-bottom: 45px;
+            h1 {
+                font-size: 28px;
+                line-height: 47px;
+                margin-bottom: 7px;
+            }
+            div {
+                font-size: 17px;
+                line-height: 25px;
+            }
+        }
+        
+        .services {
+            grid-column-gap: 77px;
+            grid-row-gap: 35px;
+            margin-left: -15px;
+            margin-right: -15px;
+            .service {
+                img {
+                    width: 67.39px;
+                    height: 67.39px;
+                }
+                h1 {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin-bottom: 14px;
+                }
+                div {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
+    .services-container {
+        width: 84%;
+        margin-bottom: 90px;
+        .service-header {
+            margin-top: 55px;
+            margin-bottom: 70px;
+            h1 {
+                font-size: 30px;
+                line-height: 61px;
+                margin-bottom: 10px;
+            }
+            div {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        
+        .services {
+            grid-column-gap: 0px;
+            grid-row-gap: 50px;
+            margin-left: 15px;
+            margin-right: 15px;
     
+            .service {
+                img {
+                    width: 75.79px;
+                    height: 75.79px;
+                }
+                h1 {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin-bottom: 14px;
+                }
+                div {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 11
 @media (max-width: 834px) {
-    
+    .services-container {
+        width: 72%;
+        .service-header {
+            margin-top: 80px;
+        }
+        .services {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 45px;
+            .service {
+                h1 {
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: 14px;
+                }
+                div {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .service:nth-of-type(9) {
+                display: none;
+            }
+        }
+    }
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 430px) {
-    
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-    
+    .services-container {
+        width: 72%;
+        margin-bottom: 70px;
+        .service-header {
+            padding-top: 40px;
+            padding-bottom: 55px;
+            width: 60%;
+            margin: auto;
+            h1 {
+                font-size: 26px;
+                line-height: 36px;
+                margin-bottom: 15px;
+            }
+        }
+        .services {
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 50px;
+            margin-left: 15px;
+            margin-right: 15px;
+            .service {
+                img {
+                    width: 75.79px;
+                    height: 75.79px;
+                }
+                h1 {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin-bottom: 15px;
+                }
+                div {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+            .service:nth-of-type(9) {
+                display: block;
+            }
+        }
+    }
 }
 
 // Android Large
-@media (max-width: 360px) {
-    
+@media (max-width: 370px) {
+    .services-container {
+        width: 93%;
+    }
 }

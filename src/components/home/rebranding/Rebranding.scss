@@ -1,16 +1,14 @@
 .rebranding {
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    margin: 100px 0;
     .rebranding-photo {
-        margin-left: 322px;
+        margin-left: 303px;
         img {
             width: 500px;
         }
     }
     .rebranding-info {
-        margin-left: 145px;
-        margin-right: 276px;
+        margin-left: 167px;
         margin-top: 30px;
         .rebranding-header {
             margin-bottom: 40px;
@@ -39,45 +37,208 @@
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .rebranding {
+        margin-top: 91.79px;
+        margin-bottom: 90px;
+        .rebranding-photo {
+            margin-left: 271px;
+            img {
+                width: 450px;
+            }
+        }
+        .rebranding-info {
+            margin-left: 150.2px;
+            margin-top: 25px;
+            .rebranding-header {
+                // margin-bottom: 40px;
+                h1 {
+                    font-size: 36px;
+                    line-height: 63px;
+                }
+            }
+            .rebranding-text {
+                font-size: 16px;
+                line-height: 24px;
+                .rebranding-newLine {
+                    // margin-top: 25px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .rebranding {
+        margin-top: 80.5px;
+        margin-bottom: 78.78px;
+        .rebranding-photo {
+            margin-left: 253.53px;
+            img {
+                width: 393.88px;
+            }
+        }
+        .rebranding-info {
+            margin-left: 115.01px;
+            margin-top: 20px;
+            .rebranding-header {
+                margin-bottom: 32px;
+                h1 {
+                    font-size: 32px;
+                    line-height: 55px;
+                }
+            }
+            .rebranding-text {
+                font-size: 16px;
+                line-height: 24px;
+                .rebranding-newLine {
+                    margin-top: 21px;
+                }
+            }
+        }
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+    .rebranding {
+        margin-top: 79.24px;
+        margin-bottom: 73.15px;
+        .rebranding-photo {
+            margin-left: 272px;
+            img {
+                width: 374.91px;
+            }
+        }
+        .rebranding-info {
+            margin-left: 76.75px;
+            margin-top: 22px;
+            .rebranding-header {
+                margin-bottom: 31px;
+                h1 {
+                    font-size: 30px;
+                    line-height: 52px;
+                }
+            }
+            .rebranding-text {
+                font-size: 15px;
+                line-height: 22px;
+                .rebranding-newLine {
+                    margin-top: 21px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .rebranding {
+        margin-top: 68.18px;
+        margin-bottom: 63px;
+        .rebranding-photo {
+            margin-left: 211.58px;
+            img {
+                width: 333.6px;
+            }
+        }
+        .rebranding-info {
+            margin-left: 97.41px;
+            margin-top: 18px;
+            .rebranding-header {
+                margin-bottom: 27px;
+                h1 {
+                    font-size: 28px;
+                    line-height: 47px;
+                }
+            }
+            .rebranding-text {
+                width: 90%;
+                font-size: 16px;
+                line-height: 24px;
+                .rebranding-newLine {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
+    .rebranding {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        .rebranding-photo {
+            display: none;
+        }
+        .rebranding-info {
+            text-align: center;
+            margin-left: 0;
+            margin-top: 76px;
+            margin-bottom: 75px;
+            .rebranding-header {
+                margin-bottom: 30px;
+                h1 {
+                    margin: 0;
+                    font-size: 30px;
+                    line-height: 67px;
+                }
+            }
+            .rebranding-text {
+                width: 100%;
+                font-size: 15px;
+                line-height: 25px;
+                .rebranding-newLine {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 11
 @media (max-width: 834px) {
-    
+    .rebranding {
+        .rebranding-info {
+            margin-bottom: 100px;
+        }
+    }
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-    
+@media (max-width: 530px) {
+    .rebranding {
+        .rebranding-info {
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            margin-top: 108px;
+            margin-bottom: 100px;
+            .rebranding-header {
+                margin-bottom: 33px;
+                h1 {
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+            }
+            .rebranding-text {
+                font-size: 14.5px;
+                line-height: 21px;
+                .rebranding-newLine {
+                    margin-top: 22px;
+                }
+            }
+        }
+    }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    
+    .rebranding {
+        .rebranding-info {
+            width: 90%;
+        }
+    }
 }

@@ -1,6 +1,6 @@
 .contact-container{
 	.contact-box {
-		padding-top: 97px;
+		padding-top: 85px;
 		h2 {
 			font-family: 'Ploni ML v2 AAA';
 			font-size: 18px;
@@ -8,32 +8,28 @@
 			text-align: center;
 			text-decoration-line: underline;
 			margin: 0;
-			padding: 0.5rem;
+			padding: 0.6rem;
 		}
 		.contact-form{
 			width: 305px;
 			height: 535px;
 			margin: auto;
-			margin-top: 50px;
+			margin-top: 55px;
 			.field{
 				width: 305px;
 				height: 65px;
 				border-radius: 10px;
 				margin-top: 30px;
-
 				padding-left: 17px;
-				font-family: 'Ploni ML v2 AAA';
-				font-size: 18px;
-				line-height: 23px;
 			}
 			textarea{
 				padding-top: 20px;
 				min-height: 130px;
 			}
 			.contact-button {
-				margin-top: 55px;
+				margin-top: 50px;
 			}
-			::placeholder {
+			::placeholder, .field {
 				font-family: 'Ploni ML v2 AAA';
 				font-size: 18px;
 				line-height: 23px;
@@ -42,48 +38,175 @@
 	}
 	p {
 		margin: 0;
-		margin-left: 182px;
-		margin-top: 70px;
-		padding-bottom: 30px;
+		margin-left: 160px;
+		margin-top: 90px;
+		padding-bottom: 20px;
 		font-family: 'Ploni ML v2 AAA';
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 27px;
 	}
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+	.contact-container{
+		.contact-box {
+			padding-top: 75px;
+			h2 {
+				font-size: 16px;
+				line-height: 18px;
+			}
+			.contact-form{
+				width: 274.52px;
+				height: 481.5px;
+				margin-top: 50px;
+				.field{
+					width: 274.52px;
+					height: 58.5px;
+					border-radius: 9px;
+					margin-top: 27px;
+				}
+				textarea{
+					padding-top: 20px;
+					min-height: 117px;
+				}
+				.contact-button {
+					margin-top: 44.5px;
+				}
+				::placeholder, .field {
+					font-size: 16px;
+					line-height: 21px;
+				}
+			}
+		}
+		p {
+			margin-left: 145px;
+			margin-top: 70px;
+			padding-bottom: 20px;
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
-}
-
-// Desktop
-@media (max-width: 1440px) {
-    
+	.contact-container{
+		.contact-box {
+			padding-top: 55px;
+			h2 {
+				font-size: 16px;
+				line-height: 16px;
+			}
+			.contact-form{
+				width: 210.11px;
+				height: 368.55px;
+				margin-top: 35px;
+				.field{
+					width: 210.11px;
+					height: 44.78px;
+					border-radius: 6.8888px;
+					margin-top: 17px;
+					padding-left: 13px;
+				}
+				textarea{
+					padding-top: 14px;
+					min-height: 89.55px;
+				}
+				.contact-button {
+					margin-top: 32.5px;
+				}
+				::placeholder, .field {
+					// font-size: 16px;
+					line-height: 16px;
+				}
+			}
+		}
+		p {
+			margin-left: 170px;
+			margin-top: 70px;
+			padding-bottom: 20px;
+			font-size: 13px;
+			line-height: 13px;
+		}
+	}
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .contact-container{
+		.contact-box {
+			.contact-form{
+				margin-top: 55px;
+			}
+		}
+		p {
+			margin-left: 108px;
+			margin-top: 50px;
+			padding-bottom: 20px;
+			font-size: 14px;
+			line-height: 14px;
+		}
+	}
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
-}
-
-// IPad Pro 11
-@media (max-width: 834px) {
-    
+	.contact-container{
+		.contact-box {
+			padding-top: 55px;
+			h2 {
+				font-size: 15px;
+				line-height: 18px;
+			}
+			.contact-form{
+				width: 210.11px;
+				height: 368.55px;
+				margin-top: 55px;
+				.field{
+					width: 210.11px;
+					height: 44.78px;
+					border-radius: 6.8888px;
+					margin-top: 17px;
+					padding-left: 13px;
+				}
+				textarea{
+					padding-top: 14px;
+					min-height: 89.55px;
+				}
+				.contact-button {
+					margin-top: 32.5px;
+				}
+				::placeholder, .field {
+					font-size: 15px;
+					line-height: 16px;
+				}
+			}
+		}
+		p {
+			margin-left: 108px;
+			margin-top: 50px;
+			padding-bottom: 20px;
+			font-size: 13px;
+			line-height: 19px;
+		}
+	}
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 430px) {
-    
+	.contact-container{
+		div {
+			text-align: center;
+			p {
+				margin-left: 0;
+				margin-top: 70px;
+				padding-bottom: 20px;
+				font-size: 14px;
+				line-height: 19px;
+			}
+		}
+	}
 }
 
 // Iphone 14

@@ -5,7 +5,7 @@ import './website.css'
 import pic1 from './img-2/Collection SS22.jpg'
 import pic2 from './img-2/Hompage.jpg'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -35,7 +35,7 @@ function WebsitesComponent(props) {
                 </div>
                
             </div>
-            <div className="website-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

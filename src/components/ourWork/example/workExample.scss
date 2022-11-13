@@ -1,6 +1,6 @@
 .work-example-text {
     margin-top: 110px;
-    margin-bottom: 152px;
+    margin-bottom: 110px;
     font-family: 'Ploni ML v2 AAA';
     font-style: normal;
     font-weight: 300;
@@ -8,48 +8,103 @@
     line-height: 24px;
     text-align: center;
 }
+.banners {
+    .new-example {
+        padding-top: 90px;
+    }
+}
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .work-example-text {
+        margin-top: 74px;
+        margin-bottom: 107px;
+    }
+    .banners {
+        .new-example {
+            padding-top: 124px;
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .work-example-text {
+        margin-top: 74px;
+        margin-bottom: 107px;
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
-}
-
-// MacBook Pro air
-@media (max-width: 1280px) {
-    
+    .work-example-text {
+        margin-top: 70px;
+        margin-bottom: 67px;
+    }
+    .banners {
+        .new-example {
+            padding-top: 65px;
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
+    .work-example-text {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .banners {
+        .new-example {
+            padding-top: 42px;
+        }
+    }
 }
 
 // IPad Pro 11
 @media (max-width: 834px) {
-    
+    .work-example-text {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .banners {
+        .new-example {
+            padding-top: 70px;
+        }
+    }
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 430px) {
-    
+    .work-example-text {
+        width: 72%;
+        margin: auto;
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 60px;
+        margin-bottom: 42px;
+    }
+    .banners {
+        .new-example {
+            padding-top: 42px;
+        }
+    }
 }
 
 // Iphone 14
 @media (max-width: 390px) {
-    
+    .work-example-text {
+        width: 80%;
+    }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    
+    .work-example-text {
+        width: 90%;
+    }
 }

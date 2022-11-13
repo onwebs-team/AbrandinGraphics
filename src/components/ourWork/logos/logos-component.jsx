@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import './Logos.scss'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -35,26 +35,30 @@ function LogosComponent(props) {
                     <img className='logos-img logos-img-left' src={Picmama1} alt="" />
                     <img className='logos-img logos-img-right' src={Picmama2} alt="" />
                 </div>
-                <Example 
-                    first='Example of a logo card for “Orbach” -' 
-                    second='Law firm who specializes in energy and infrastructure.' 
-                    third='The logo is round to represent energy and looks like a road to show infrastructure.' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='Example of a logo card for “Orbach” -' 
+                        second='Law firm who specializes in energy and infrastructure.' 
+                        third='The logo is round to represent energy and looks like a road to show infrastructure.' 
+                    />
+                </div>
                 <div className="logos-two-pictures">
                     <img className='logos-img logos-img-left' src={Picorbach1} alt="" />
                     <img className='logos-img logos-img-right' src={Picorbach2} alt="" />
                 </div>
-                <Example 
-                    first='An example of logo for the "Mama" winery,' 
-                    second='an Italian family winery from the Golan Mountains.' 
-                    third='We took the letters M and A and arranged them in an interesting way. The burgundy color is classic and romantic. Just like wine.' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='An example of logo for the "Mama" winery,' 
+                        second='an Italian family winery from the Golan Mountains.' 
+                        third='We took the letters M and A and arranged them in an interesting way. The burgundy color is classic and romantic. Just like wine.' 
+                    />
+                </div>
                 <div className="logos-two-pictures">
                     <img className='logos-img logos-img-left' src={Picb91} alt="" />
                     <img className='logos-img logos-img-right' src={Picb92} alt="" />
                 </div>
             </div>
-            <div className="logos-button"><Button text='NEXT' work={nextPage}/></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage}/></div>
         </div>
     );
 }

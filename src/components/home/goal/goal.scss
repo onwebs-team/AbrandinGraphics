@@ -1,19 +1,11 @@
 .goal {
     display: flex;
     flex-direction: row;
-    // padding: 0;
-    // margin: 0;
-    // box-sizing: border-box;
-    // font-family: 'Quicksand', sans-serif;
-    // background: #D4E249;
-    // display: block;
-    // position: relative;
-    // height: 650px;
     .goal-green {
       width: 50%;
       background: #D4E249;
-      padding-left: 15%;
-      padding-top: 7%;
+      padding-left: 303px;
+      padding-top: 130px;
       h2 {
         font-family: 'Poller One';
         font-size: 40px;
@@ -26,7 +18,7 @@
         line-height: 26px;
       }
       .goal-button {
-        margin-top: 80px;
+        margin-top: 85px;
       }
     }
     .goal-img {
@@ -41,45 +33,167 @@
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+  .goal {
+    .goal-green {
+      padding-left: 271px;
+      padding-top: 120px;
+      h2 {
+        font-size: 36px;
+        line-height: 63px;
+      }
+      p {
+        font-size: 16.2px;
+        line-height: 24px;
+      }
+      .goal-button {
+        margin-top: 75.9px;
+      }
+    }
+  }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+  .goal {
+    .goal-green {
+      padding-left: 253.66px;
+      padding-top: 105px;
+      h2 {
+        font-size: 31.5104px;
+        line-height: 55px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .goal-button {
+        margin-top: 66.4px;
+      }
+    }
+  }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+  .goal {
+    .goal-green {
+      padding-left: 273.26px;
+      padding-top: 100px;
+      h2 {
+        font-size: 30.0366px;
+        line-height: 53px;
+      }
+      p {
+        font-size: 13.5165px;
+        line-height: 20px;
+      }
+      .goal-button {
+        margin-top: 63.32px;
+      }
+    }
+  }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+  .goal {
+    .goal-green {
+      padding-left: 217px;
+      padding-top: 88px;
+      h2 {
+        font-size: 28px;
+        line-height: 47px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .goal-button {
+        margin-top: 47px;
+      }
+    }
+  }
 }
 
 // IPad Pro 12.9
-@media (max-width: 1024px) {
-    
+@media (max-width: 1190px) {
+  .goal {
+    .goal-green {
+      padding-left: 110px;
+      padding-top: 50px;
+      h2 {
+        font-size: 32px;
+        line-height: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .goal-button {
+        margin-top: 68px;
+        margin-bottom: 90.28px;
+      }
+    }
+  }
 }
 
 // IPad Pro 11
-@media (max-width: 834px) {
-    
+@media (max-width: 970px) {
+  .goal {
+    .goal-green {
+      width: 52%;
+      height: 415px;
+      padding-left: 88px;
+      padding-top: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .goal-button {
+        margin-top: 68px;
+        margin-bottom: 90.28px;
+      }
+    }
+  }
+  // .goal {
+  //   .goal-green {
+  //     width: 100%;
+  //     padding-left: 110px;
+  //   }
+  // }
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-    
-}
-
-// Android Large
-@media (max-width: 360px) {
-    
+@media (max-width: 700px) {
+  .goal {
+    .goal-green {
+      width: 100%;
+      height: 100%;
+      padding-left: 0;
+      padding-top: 73px;
+      text-align: center;
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .goal-button {
+        margin-top: 45px;
+        margin-bottom: 90.28px;
+      }
+    }
+    .goal-img {
+      display: none;
+    }
+  }
 }

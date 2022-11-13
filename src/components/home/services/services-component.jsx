@@ -64,15 +64,13 @@ function Services(props) {
     ]
 
     return (
-        <div className="services">
-            <div className='services-container'>
-                <div className="service-header">
-                    <h1>what are we doing?</h1>
-                    <div>We design everyting.</div>
-                </div>
-                <div className="services">
-                    {services.map((s, i) => <Service name={s.name} description={s.description} img={s.img} key={i} />)}
-                </div>
+        <div className='services-container'>
+            <div className="service-header">
+                <h1>what are we doing?</h1>
+                <div>We design everyting.</div>
+            </div>
+            <div className="services">
+                {services.map((s, i) => <Service name={s.name} description={s.description} img={s.img} key={i} />)}
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import Story from './img/Story.jpg'
 import HasbaraPost from './img/HasbaraPost.jpg'
 import TrullionPost from './img/TrullionPost.jpg'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -29,27 +29,31 @@ function BannersComponent(props) {
                     third='The resolutions are for a post on social networks and a "story" for Instagram.' 
                 />
                 <div className="banner-two-pictures">
-                    <img className='banner-post' src={Post} alt="" />
-                    <img className='banner-story' src={Story} alt="" />
+                    <div><img className='banner-post' src={Post} alt="" /></div>
+                    <div><img className='banner-story' src={Story} alt="" /></div>
                 </div>
-                <Example 
-                    first='An example of banner for "Hasbara Fellowships",' 
-                    second='A company that calls young Jews to come to ״Taglit” and discover Israel.' 
-                    third='The resolution is for a post on social networks.' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='An example of banner for "Hasbara Fellowships",' 
+                        second='A company that calls young Jews to come to ״Taglit” and discover Israel.' 
+                        third='The resolution is for a post on social networks.' 
+                    />
+                </div>
                 <div className="banner-pictures">
                     <img className='banner-hasbara' src={HasbaraPost} alt="" />
                 </div>
-                <Example 
-                    first='An example of banner for "Trullion",' 
-                    second='AI based platform for the management and automation.' 
-                    third='The resolution is for a post on social networks.' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='An example of banner for "Trullion",' 
+                        second='AI based platform for the management and automation.' 
+                        third='The resolution is for a post on social networks.' 
+                    />
+                </div>
                 <div className="banner-pictures">
                     <img className='banner-trullion' src={TrullionPost} alt="" />
                 </div>
             </div>
-            <div className="benners-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

@@ -6,7 +6,7 @@ import MacBookPro161728w from './img/MacBookPro161728w.jpg'
 import iPadPro121024w from './img/iPadPro121024w.jpg'
 import AndroidLarge360w from './img/AndroidLarge360w.jpg'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -41,7 +41,7 @@ function LandingComponent(props) {
                     </div>
                 </div>
             </div>
-            <div className="landing-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

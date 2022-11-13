@@ -2,7 +2,7 @@
 //import emailjs from "@emailjs/browser";
 import './Contact.scss'
 import './WhiteContact.scss'
-import Button from '../button/button-component'
+import Button from '../button/button3/button3-component'
 
 // npm i @emailjs/browser
 
@@ -44,7 +44,7 @@ const ContactUs = () => {
 				<div className="contact-button"><Button text='SEND' /></div>
 			</div>
 		</div>
-		<p><i className="fa-regular fa-copyright"></i> 2022 onweb. All rights reserved.</p>
+		<div><p><i className="fa-regular fa-copyright"></i> 2022 onwebs. All rights reserved.</p></div>
 	</div>
   );
 };

@@ -35,45 +35,170 @@ padding: 0.5rem;
 
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 894px;
+        height: 609.64px;
+    }
+    .print-hasbara {
+        width: 546.48px;
+      height: 308px;
+      padding-left: 2rem;
 
+       
+    }
+    
+   
+
+    
+
+   
 }
 
 /* MacBook Pro 14 */
 @media (max-width: 1512px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 1002px;
+        height: 668.08px;
+    }
+    .print-hasbara {
+     width: 601.48px;
+    height: 339px;
+    padding-left: 2rem;
+       
+    }
     
 }
 
 /* Desktop */
 @media (max-width: 1440px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 854.51px;
+        height: 569.74px;
+    }
+    .print-hasbara {
+        width: 546.48px;
+      height: 308px;
+      padding-left: 2rem;
+       
+    }
     
 }
 
 /* MacBook Pro air */
 @media (max-width: 1280px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 886px;
+        height: 590.74px;
+    }
+    .print-hasbara {
+        width: 509.6px;
+        height: 287.22px;
+        padding-left: 2rem;
+       
+    }
+    
     
 }
 
 /* IPad Pro 12.9 */
 @media (max-width: 1024px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 763px;
+        height: 508.73px;
+    }
+    .print-hasbara {
+        width: 763px;
+        height: 430.03px;
+        padding-bottom: 2rem;
+    }
     
 }
 
 /* IPad Pro 11 */
 @media (max-width: 834px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 620px;
+      height: 413.38px;
+    }
+    .print-hasbara {
+    width: 620.08px;
+    height: 349.48px;
+    }
+
     
 }
 
 /* Iphone 14 Pro Max */
-@media (max-width: 430px) {
+@media (max-width: 700px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 300px;
+        height: 200.02px;
+    }
+    .print-hasbara {
+        width: 299.85px;
+        height: 169px;
+        padding-bottom: 1rem;
+    }
+    
+    
+
+   
+
     
 }
 
 /* Iphone 14 */
 @media (max-width: 390px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 300px;
+        height: 200.02px;
+    }
+    .print-hasbara {
+        width: 299.85px;
+        height: 169px;
+        padding-bottom: 1rem;
+    }
+    
     
 }
 
 /* Android Large */
 @media (max-width: 360px) {
+    .prints {
+        width: 100%;
+    }
+    .print-post {
+        width: 300px;
+        height: 200.02px;
+    }
+    .print-hasbara {
+        width: 299.85px;
+        height: 169px;
+        padding-bottom: 1rem;
+    }
     
 }

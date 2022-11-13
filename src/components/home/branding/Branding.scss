@@ -35,45 +35,235 @@
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .branding-container {
+        height: 585.03px;
+        .branding-sticker {
+            img {
+                width: 187px;
+                height: 187px;
+                top: 135px;
+                right: 245px;
+            }
+        }
+        .branding-info {
+            h1 {
+                font-size: 43.2025px;
+                line-height: 63px;
+                padding-top: 248px;
+            }
+            .branding-button {
+                padding-top: 70px;
+            }
+        }
+    }
 }
 
 // MacBook Pro 14
-@media (max-width: 1512px) {
-    
+@media (max-width: 1700px) {
+    .branding-container {
+        height: 512.07px;
+        .branding-sticker {
+            img {
+                width: 165px;
+                height: 165px;
+                top: 120px;
+                right: 215px;
+            }
+        }
+        .branding-info {
+            h1 {
+                font-size: 37.8147px;
+                line-height: 55px;
+                padding-top: 217.43px;
+            }
+            .branding-button {
+                padding-top: 70px;
+            }
+        }
+    }
 }
 
 // Desktop
-@media (max-width: 1440px) {
-    
+@media (max-width: 1500px) {
+    .branding-container {
+        height: 488.12px;
+        .branding-sticker {
+            img {
+                width: 155px;
+                height: 155px;
+                top: 112px;
+                right: 205px;
+            }
+        }
+        .branding-info {
+            h1 {
+                font-size: 36.046px;
+                line-height: 53px;
+                padding-top: 207.26px;
+            }
+            .branding-button {
+                padding-top: 60px;
+            }
+        }
+    }
 }
 
 // MacBook Pro air
-@media (max-width: 1280px) {
-    
+@media (max-width: 1400px) {
+    .branding-container {
+        height: 433.71px;
+        .branding-sticker {
+            img {
+                width: 138px;
+                height: 138px;
+                top: 100px;
+                right: 185px;
+            }
+        }
+        .branding-info {
+            h1 {
+                font-size: 32.0277px;
+                line-height: 47px;
+                padding-top: 184.16px;
+            }
+            .branding-button {
+                padding-top: 50px;
+            }
+        }
+    }
 }
 
 // IPad Pro 12.9
-@media (max-width: 1024px) {
-    
+@media (max-width: 1200px) {
+    .branding-container {
+        height: 487.75px;
+        .branding-sticker {
+            img {
+                width: 150px;
+                height: 150px;
+                top: 95px;
+                right: 176px;
+            }
+        }
+        .branding-info {
+            width: 45%;
+            margin: auto;
+            h1 {
+                font-size: 30px;
+                line-height: 42px;
+                padding-top: 170px;
+            }
+            .branding-button {
+                padding-top: 60px;
+            }
+        }
+    }
 }
 
 // IPad Pro 11
-@media (max-width: 834px) {
-    
+@media (max-width: 1000px) {
+    .branding-container {
+        height: 504px;
+        .branding-sticker {
+            img {
+                width: 150px;
+                height: 150px;
+                top: 105px;
+                right: 82px;
+            }
+        }
+        .branding-info {
+            width: 49%;
+            margin: auto;
+            h1 {
+                font-size: 30px;
+                line-height: 42px;
+                padding-top: 184px;
+            }
+            .branding-button {
+                padding-top: 60px;
+            }
+        }
+    }
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
+@media (max-width: 650px) {
+    .branding-container {
+        height: 373px;
+        .branding-sticker {
+            img {
+                width: 150px;
+                height: 150px;
+                top: 325px;
+                right: 45px;
+            }
+        }
+        .branding-info {
+            width: 55%;
+            margin: auto;
+            h1 {
+                font-size: 26px;
+                line-height: 36px;
+                padding-top: 102px;
+            }
+            .branding-button {
+                padding-top: 35px;
+            }
+        }
+    }
 }
 
 // Iphone 14
 @media (max-width: 390px) {
-    
+    .branding-container {
+        height: 373px;
+        .branding-sticker {
+            img {
+                width: 150px;
+                height: 150px;
+                top: 325px;
+                right: 27px;
+            }
+        }
+        .branding-info {
+            width: 60%;
+            margin: auto;
+            h1 {
+                font-size: 26px;
+                line-height: 36px;
+                padding-top: 102px;
+            }
+            .branding-button {
+                padding-top: 35px;
+            }
+        }
+    }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    
+    .branding-container {
+        height: 373px;
+        .branding-sticker {
+            img {
+                width: 150px;
+                height: 150px;
+                top: 325px;
+                right: 10px;
+            }
+        }
+        .branding-info {
+            width: 65%;
+            margin: auto;
+            h1 {
+                font-size: 26px;
+                line-height: 36px;
+                padding-top: 102px;
+            }
+            .branding-button {
+                padding-top: 30px;
+            }
+        }
+    }
 }

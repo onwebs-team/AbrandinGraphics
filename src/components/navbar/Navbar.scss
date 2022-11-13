@@ -4,52 +4,95 @@
         position: absolute;
         width: 356.4px;
         height: 178px;
-        margin-left: 240px;
+        margin-left: 220px;
         top: -10px;
     }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .navbar {
+        img {
+            margin-left: 185px;
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .navbar {
+        img {
+            margin-left: 170px;
+        }
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+    .navbar {
+        img {
+            margin-left: 185px;
+        }
+    }
 }
 
-// MacBook Pro air
+// Macbook Air
 @media (max-width: 1280px) {
-    
+    .navbar {
+        img {
+            margin-left: 131px;
+            top: -20px;
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
+    .navbar {
+        img {
+            margin-left: 38px;
+            width: 300px;
+            height: 140px;
+            top: -10px;
+        }
+    }
 }
 
 // IPad Pro 11
 @media (max-width: 834px) {
-    
+    .navbar {
+        img {
+            margin-left: 32%;
+        }
+    }
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 430px) {
-    
+    .navbar {
+        img {
+            margin-left: 15%;
+            width: 300px;
+            height: 149.83px;
+            top: -20px;
+        }
+    }
 }
 
 // Iphone 14
 @media (max-width: 390px) {
-    
+    .navbar {
+        img {
+            margin-left: 10%;
+        }
+    }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    
+    .navbar {
+        img {
+            margin-left: 8%;
+        }
+    }
 }

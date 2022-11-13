@@ -6,6 +6,8 @@ let onwebs = require('./img2/Onweb.png');
 let primis = require('./img2/Primis.png');
 let cobwebs = require('./img2/Cobwebs.png');
 let trullion = require('./img2/Trullion.png');
+let hasbara = require('./img2/Logo hasbara.png');
+let medina = require('./img2/Logo medina.png');
 
 
 
@@ -30,6 +32,17 @@ function Clients(props) {
             <div className="row">
                 <div  className="slide">
             <img src={trullion} alt=""/>
+            </div>
+            </div>
+            <div className="row">
+                <div  className="slide">
+            <img src={hasbara} alt=""/>
+            </div>
+            </div>
+            
+            <div className="row">
+                <div  className="slide">
+            <img src={medina} alt=""/>
             </div>
             </div>
           

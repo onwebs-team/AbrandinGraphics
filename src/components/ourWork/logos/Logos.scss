@@ -15,54 +15,76 @@
             }
         }
     }
-    .logos-button {
-        text-align: center;
-        margin-top: 185px;
-        padding-bottom: 220px;
-    }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
-}
-
-// MacBook Pro 14
-@media (max-width: 1512px) {
+    .logos {
+        .logos-examples {
+            .logos-two-pictures {
+                .logos-img {
+                    width: 533.19px;
+                    height: 311.03px;
+                }
     
-}
-
-// Desktop
-@media (max-width: 1440px) {
-    
+                .logos-img-right {
+                    margin-left: 78.69px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .logos {
+        .logos-examples {
+            .logos-two-pictures {
+                display: block;
+                text-align: center;
+                .logos-img {
+                    width: 650px;
+                    height: 379.17px;
+                }
+                .logos-img-right {
+                    margin-left: 0;
+                    margin-top: 74.25px;
+                }
+            }
+        }
+    }  
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
-}
-
-// IPad Pro 11
-@media (max-width: 834px) {
-    
+    .logos {
+        .logos-examples {
+            .logos-two-pictures {
+                .logos-img {
+                    width: 658.79px;
+                    height: 384.29px;
+                }
+                .logos-img-right {
+                    margin-top: 65.11px;
+                }
+            }
+        }
+    }  
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-    
-}
-
-// Android Large
-@media (max-width: 360px) {
-    
+@media (max-width: 840px) {
+    .logos {
+        .logos-examples {
+            .logos-two-pictures {
+                .logos-img {
+                    width: 302px;
+                    height: 176.17px;
+                }
+                .logos-img-right {
+                    margin-top: 51.1px;
+                }
+            }
+        }
+    }  
 }

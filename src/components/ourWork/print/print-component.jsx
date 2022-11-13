@@ -7,7 +7,7 @@ import Post from './img-3/Business card.png'
 import HasbaraPost from './img-3/Pic 1.png'
 import HasbaraPost2 from './img-3/Pic 2.png'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -32,11 +32,13 @@ function PrintComponent(props) {
                     <img className='print-post' src={Post} alt="" />
                     
                 </div>
-                <Example 
-                    first='Example of a products for “Orbach” -' 
-                    second='Law firm.' 
-                    third='We chose the color gray because there is always a gray area between justice and injustice. The products are white to represent optimism.' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='Example of a products for “Orbach” -' 
+                        second='Law firm.' 
+                        third='We chose the color gray because there is always a gray area between justice and injustice. The products are white to represent optimism.' 
+                    />
+                </div>
                 <div className="print-pictures">
                     <img className='print-hasbara' src={HasbaraPost} alt="" />
                     <img className='print-hasbara' src={HasbaraPost2} alt="" />
@@ -44,7 +46,7 @@ function PrintComponent(props) {
                 </div>
                
             </div>
-            <div className="print-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import './SocialMedia.scss'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -33,7 +33,7 @@ function SocialMediaComponent(props) {
 
     return (
         <div className='social'>
-            <Header header='social media' des='Social Media' />
+            <Header header='social media' des='Visual language' />
             <div className="social-examples">
                 <Example 
                     first='Example of a Highlighs for “Coach”.' 
@@ -41,37 +41,43 @@ function SocialMediaComponent(props) {
                     third='We created for him a visual language for Instagram, which includes a design of the highlights area with icons.' 
                 />
                 <div className="social-five-pictures">
-                    <img className='social-hightlight social-running' src={HightlightsIconsRunning} alt="" />
-                    <img className='social-hightlight social-food' src={HightlightsIconsFood} alt="" />
-                    <img className='social-hightlight social-gym' src={HightlightsIconsGym} alt="" />
-                    <img className='social-hightlight social-mesitation' src={HightlightsIconsMesitation} alt="" />
+                    <div className="social-two-pictures">
+                        <img className='social-hightlight social-running social-hightlight-first' src={HightlightsIconsRunning} alt="" />
+                        <img className='social-hightlight social-food social-hightlight-second' src={HightlightsIconsFood} alt="" />
+                    </div>
+                    <div className="social-two-pictures">
+                        <img className='social-hightlight social-gym social-hightlight-first' src={HightlightsIconsGym} alt="" />
+                        <img className='social-hightlight social-mesitation social-hightlight-second' src={HightlightsIconsMesitation} alt="" />
+                    </div>
                     <img className='social-hightlight social-arts' src={HightlightsIconsMartialArts} alt="" />
                 </div>
                 <div className="social-pictures">
                     <img className='social-mockup' src={Mockup} alt="" />
                 </div>
-                <Example 
-                    first='An example of a Instagram posts Medina Studio.' 
-                    second='Wedding dress design.' 
-                    third='We wanted to convey an autumnal atmosphere according to the collection. Photos by: Dudi Hasson' 
-                />
+                <div className='new-example'>
+                    <Example 
+                        first='An example of a Instagram posts Medina Studio.' 
+                        second='Wedding dress design.' 
+                        third='We wanted to convey an autumnal atmosphere according to the collection. Photos by: Dudi Hasson' 
+                    />
+                </div>
                 <div className="social-three-pictures">
                     <img className='social-post social-post1' src={Post1} alt="" />
-                    <img className='social-post social-post2' src={Post2} alt="" />
-                    <img className='social-post social-post3' src={Post3} alt="" />
+                    <img className='social-post social-post-right social-post2' src={Post2} alt="" />
+                    <img className='social-post social-post-right social-post3' src={Post3} alt="" />
                 </div>
                 <div className="social-three-pictures">
                     <img className='social-post social-post4' src={Post4} alt="" />
-                    <img className='social-post social-post5' src={Post5} alt="" />
-                    <img className='social-post social-post6' src={Post6} alt="" />
+                    <img className='social-post social-post-right social-post5' src={Post5} alt="" />
+                    <img className='social-post social-post-right social-post6' src={Post6} alt="" />
                 </div>
                 <div className="social-three-pictures">
                     <img className='social-post social-post7' src={Post7} alt="" />
-                    <img className='social-post social-post8' src={Post8} alt="" />
-                    <img className='social-post social-post9' src={Post9} alt="" />
+                    <img className='social-post social-post-right social-post8' src={Post8} alt="" />
+                    <img className='social-post social-post-right social-post9' src={Post9} alt="" />
                 </div>
             </div>
-            <div className="social-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }

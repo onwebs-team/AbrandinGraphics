@@ -24,60 +24,269 @@
             justify-content: center;
             margin-bottom: 45.37px;
             .social-post {
-                margin-left: 56px;
                 width: 296.58px;
                 height: 301.54px;
             }
+            .social-post-right {
+                margin-left: 56px;
+            }
         }
-    }
-    .social-button {
-        text-align: center;
-        margin-top: 185px;
-        padding-bottom: 220px;
     }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-hightlight {
+                    margin-left: 53.74px;
+                    width: 194.05px;
+                    height: 344.69px;
+                }
+            }
+            .social-pictures {
+                margin: 84.57px 0;
+                .social-mockup {
+                    width: 428.83px;
+                    height: 879.41px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 56.51px;
+                .social-post {
+                    width: 344.14px;
+                    height: 348.92px;
+                }
+                .social-post-right {
+                    margin-left: 66px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-hightlight {
+                    margin-left: 45.41px;
+                    width: 163.94px;
+                    height: 291.21px;
+                }
+            }
+            .social-pictures {
+                margin: 82.39px 0;
+                .social-mockup {
+                    width: 343.71px;
+                    height: 704.84px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 48.55px;
+                .social-post {
+                    width: 295.74px;
+                    height: 299.84px;
+                }
+                .social-post-right {
+                    margin-left: 56.72px;
+                }
+            }
+        }
+    }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-hightlight {
+                    margin-left: 39.69px;
+                    width: 143.33px;
+                    height: 254.59px;
+                }
+            }
+            .social-pictures {
+                margin: 82.04px 0;
+                .social-mockup {
+                    width: 343.71px;
+                    height: 704.84px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 45.82px;
+                .social-post {
+                    width: 258.55px;
+                    height: 262.31px;
+                }
+                .social-post-right {
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-hightlight {
+                    margin-left: 40px;
+                    width: 141.69px;
+                    height: 251.69px;
+                }
+            }
+            .social-pictures {
+                margin: 82.63px 0;
+                .social-mockup {
+                    width: 327.6px;
+                    height: 671.81px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 45.3px;
+                .social-post {
+                    width: 255.6px;
+                    height: 259.32px;
+                }
+                .social-post-right {
+                    margin-left: 49px;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                display: block;
+                text-align: center;
+                .social-two-pictures {
+                    margin-bottom: 53.49px;
+                }
+                .social-hightlight-first {
+                    margin-right: 48.3px;
+                }
+                .social-hightlight-second {
+                    margin-left: 48.3px;
+                }
+                .social-hightlight {
+                    margin-left: 0;
+                    width: 172.25px;
+                    height: 305.98px;
+                }
+                .social-arts {
+                    display: none;
+                }
+            }
+            .social-pictures {
+                margin: 74.6px 0;
+                .social-mockup {
+                    width: 391.46px;
+                    height: 803.32px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 50.13px;
+                .social-post {
+                    width: 282.87px;
+                    height: 286.99px;
+                }
+                .social-post-right {
+                    margin-left: 54.25px;
+                }
+                .social-post3, .social-post6, .social-post9 {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 // IPad Pro 11
 @media (max-width: 834px) {
-    
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-two-pictures {
+                    margin-bottom: 43.57px;
+                }
+                .social-hightlight-first {
+                    margin-right: 19.14px;
+                }
+                .social-hightlight-second {
+                    margin-left: 19.14px;
+                }
+                .social-hightlight {
+                    width: 140.29px;
+                    height: 249.2px;
+                }
+            }
+            .social-pictures {
+                margin: 73.68px 0;
+                .social-mockup {
+                    width: 318.82px;
+                    height: 654.27px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 50.13px;
+                .social-post {
+                    width: 282.87px;
+                    height: 286.99px;
+                }
+                .social-post-right {
+                    margin-left: 54.25px;
+                }
+            }
+        }
+    }
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 430px) {
-    
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-    
-}
-
-// Android Large
-@media (max-width: 360px) {
-    
+@media (max-width: 750px) {
+    .social {
+        .social-examples {
+            .social-five-pictures {
+                .social-two-pictures {
+                    margin-bottom: 36.03px;
+                }
+                .social-hightlight-first {
+                    margin-right: 16.265px;
+                }
+                .social-hightlight-second {
+                    margin-left: 16.265px;
+                }
+                .social-hightlight {
+                    width: 116.01px;
+                    height: 206.07px;
+                }
+            }
+            .social-pictures {
+                margin: 58.25px 0;
+                .social-mockup {
+                    width: 264.48px;
+                    height: 542.74px;
+                }
+            }
+            .social-three-pictures {
+                margin-bottom: 24.66px;
+                .social-post {
+                    width: 139.16px;
+                    height: 141.18px;
+                }
+                .social-post-right {
+                    margin-left: 26.69px;
+                }
+            }
+        }
+    }
 }

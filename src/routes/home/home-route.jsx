@@ -18,7 +18,7 @@ function Home(props) {
             <Branding />
             <Rebranding />
             <Quote />
-            {/* <Clients /> */}
+            <Clients />
             <Goal/>
             <ContactUs />
         </div>

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import './Merchandise.scss'
 
-import Button from '../../button/button-component'
+import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
@@ -30,7 +30,7 @@ function MerchandiseComponent(props) {
                     <img className='merchandise-img' src={PicOnot} alt="" />
                 </div>
             </div>
-            <div className="merchandise-button"><Button text='NEXT' work={nextPage} /></div>
+            <div className="work-button"><Button text='NEXT' work={nextPage} /></div>
         </div>
     );
 }
