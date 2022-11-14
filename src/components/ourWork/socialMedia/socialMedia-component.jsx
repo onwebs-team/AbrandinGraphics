@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './SocialMedia.scss'
@@ -24,6 +24,8 @@ import Post8 from './img/Post8.jpg'
 import Post9 from './img/Post9.jpg'
 
 function SocialMediaComponent(props) {
+
+    useEffect(() => window.scrollTo({top: 0, left: 0}), []);
 
     const navigate = useNavigate();
     const nextPage = () => {

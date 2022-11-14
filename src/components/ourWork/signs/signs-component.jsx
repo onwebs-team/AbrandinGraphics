@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Signs.scss'
@@ -10,6 +10,8 @@ import Example from '../example/workExample-component'
 import SignPic from './img/SignPic.jpg'
 
 function SignsComponent(props) {
+
+    useEffect(() => window.scrollTo({top: 0, left: 0}), []);
 
     const navigate = useNavigate();
     const nextPage = () => {

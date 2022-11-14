@@ -1,21 +1,23 @@
-
-
+/* 
 * {
     box-sizing: border-box;
 }
 
 .client{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 7fr));
     grid-gap: 1rem;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 5rem;
     margin-top: 5rem;
-   
+    overflow: hidden; */
+    /* position: relative;
+    width: auto; */ 
+/*    
    
 }
-.row img {
+/* .client .row img {
     display: block;
   max-width: 100%;
   height: 70px;
@@ -33,18 +35,16 @@
   
 
 
-}
-.row img[src$=".jpg"],
-.row img[src$=".png"] {
-  mix-blend-mode: multiply;
-}
+} */
 
+
+/* 
 @keyframes scroll {
     0% {
-        transform: translate(0);
+        transform: translateX(0  );
     }
     100% {
-        transform: translate(calc(-250px * 2));
+        transform: translateX(calc(-250px * 7));
        
 
 
@@ -53,191 +53,373 @@
 }
 
 .client .row{
-    animation: scroll 20s linear infinite;
+    animation: scroll 8s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+   
+     */
+
+
+
+
+/* 
+   animation: scroll 5s linear infinite;
     display: flex;
     width: calc(250px * 2);
-    transform: translate(0, -50%);
+    transform: translate(0, 100%);
     top: 50%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap; */
 
 
-}
+/* }
 .client .slide {
     height: 100px;
     width: 250px;
 }
-    
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+.client {
+    text-align: center;
+  }
+  
+ 
+  
+  
+  
+  .client-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  
+  
+  
+  
+  .mainContainer{
+    margin: 10px;
+  }
+  
+  .mainContainer .container{
+    padding: 40px 0;
+  }
+  
+  .mainContainer .container img{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  
+  
+  
+ 
+
+
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
-    .client {
-        grid-gap: 5rem;
-    margin-left: 6rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 300.53px;
-        height: 40.3px;
-    }
+   
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 40px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
 
 }
 
 /* MacBook Pro 14 */
 @media (max-width: 1512px) {
-    .client {
-        grid-gap: 5rem;
-    margin-left: 6rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 300.53px;
-        height: 40.3px;
-    }
    
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 40px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* Desktop */
 @media (max-width: 1440px) {
-    .client {
-        grid-gap: 5rem;
-    margin-left: 6rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 300.53px;
-        height: 40.3px;
-    }
     
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 35px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* MacBook Pro air */
 @media (max-width: 1280px) {
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 100.31px;
-        height: 20.79px;
-    }
+  
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 30px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
     
 }
 
 /* IPad Pro 12.9 */
 @media (max-width: 1024px) {
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: -53rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 660.31px;
-        height: 34.79px;
-    }
+  
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 25px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* IPad Pro 11 */
 @media (max-width: 834px) {
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: -53rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 264.93px;
-        height: 22.39px;
-    }
+  
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 20px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* Iphone 14 Pro Max */
 @media (max-width: 430px) {
 
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: -53rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 264.93px;
-        height: 22.39px;
-    }
+  
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 20px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* Iphone 14 */
 @media (max-width: 390px) {
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: -53rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-
-      
-      
-    }
-    .client .row img{
-        width: 264.93px;
-        height: 22.39px;
-    }
+    
+    .mainContainer .container img {
+    
+    
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        width:auto;
+        height: 20px;
+        margin-right: 2rem;
+    
+       
+    
+          
+          
+        }
+        .mainContainer {
+    
+            margin-left: -3rem;
+       width: 100%;
+        
+        
+        
+            
+        
+              
+            }
     
 }
 
 /* Android Large */
 @media (max-width: 360px) {
+   
 
-    .client {
-        grid-gap: 2.5rem;
-    margin-left: 6rem;
-    margin-right: -53rem;
+    .mainContainer .container img {
+    
+    
     margin-bottom: 2rem;
     margin-top: 3rem;
+    width:auto;
+    height: 20px;
+    margin-right: 2rem;
+
+   
 
       
       
     }
-    .client .row img{
-        width: 264.93px;
-        height: 22.39px;
-    }
+    .mainContainer {
+
+        margin-left: -3rem;
+   width: 100%;
+    
+    
+    
+        
+    
+          
+        }
+   
     
 }

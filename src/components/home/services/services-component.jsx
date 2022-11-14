@@ -19,47 +19,56 @@ function Services(props) {
         {
             name: 'Websites',
             description: 'On Wordpress, Wix, html - css',
-            img: IconWebsite
+            img: IconWebsite,
+            link: '/websites'
         },
         {
             name: 'Banners',
             description: 'Of any size and media',
-            img: IconBanners
+            img: IconBanners,
+            link: '/banners'
         },
         {
             name: 'Landing Pages',
             description: 'On Wordpress, Wix, html - css',
-            img: IconLP
+            img: IconLP,
+            link: '/landing'
         },
         {
             name: 'Print',
             description: 'Business cards, books, notebooks, etc.',
-            img: IconPrint
+            img: IconPrint,
+            link: '/print'
         },
         {
             name: 'Logos',
             description: 'For any type of business',
-            img: IconLogos
+            img: IconLogos,
+            link: '/logos'
         },
         {
             name: 'Presentations',
             description: 'Stunning slides',
-            img: IconPresentations
+            img: IconPresentations,
+            link: '/presentations'
         },
         {
             name: 'Signs',
             description: 'In any resolution and material',
-            img: IconSigns
+            img: IconSigns,
+            link: '/signs'
         },
         {
             name: 'Social Media',
             description: 'Visual language',
-            img: IconSocialMedia
+            img: IconSocialMedia,
+            link: '/socialmedia'
         },
         {
             name: 'Merchandise',
             description: 'Just choose',
-            img: IconMerchandise
+            img: IconMerchandise,
+            link: '/merchandise'
         },
     ]
 
@@ -70,7 +79,7 @@ function Services(props) {
                 <div>We design everyting.</div>
             </div>
             <div className="services">
-                {services.map((s, i) => <Service name={s.name} description={s.description} img={s.img} key={i} />)}
+                {services.map((s, i) => <Service name={s.name} description={s.description} img={s.img} link={s.link} key={i} />)}
             </div>
         </div>
     );

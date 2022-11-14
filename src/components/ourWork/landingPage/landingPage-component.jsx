@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Landing.scss'
@@ -11,6 +11,8 @@ import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
 function LandingComponent(props) {
+
+    useEffect(() => window.scrollTo({top: 0, left: 0}), []);
 
     const navigate = useNavigate();
     const nextPage = () => {

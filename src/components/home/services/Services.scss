@@ -34,6 +34,9 @@
         .service {
             width: 100%;
             text-align: center;
+            text-decoration: none;
+            color: black;
+            transition: 200ms ease-in-out;
             img {
                 width: 101px;
                 height: 101px;
@@ -55,6 +58,9 @@
                 line-height: 26px;
                 text-align: center;
             }
+        }
+        .service:hover {
+            transform: scale(1.05, 1.05);
         }
     }
 }
