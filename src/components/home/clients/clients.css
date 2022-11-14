@@ -91,7 +91,9 @@
 
 
 
-
+* {
+    box-sizing: border-box;
+}
 
 
 .client {
