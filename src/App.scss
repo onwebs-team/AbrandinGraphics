@@ -17,3 +17,112 @@
   font-family: 'Acherus Feral Light';
   src: url('../public/Fonts/Acherus-Feral/Horizon\ Type\ -\ AcherusFeral-Light.otf') format('opentype');
 }
+
+.img-1728 {
+  display: none;
+}
+.img-1512 {
+  display: none;
+}
+.img-1440 {
+  display: none;
+}
+.img-1280 {
+  display: none;
+}
+.img-1024 {
+  display: none;
+}
+.img-834 {
+  display: none;
+}
+.img-430 {
+  display: none;
+}
+.img-390 {
+  display: none;
+}
+.img-360 {
+  display: none;
+}
+
+@media (max-width: 1728px) {
+  .img-1920 {
+    display: none;
+  }
+  .img-1728 {
+    display: block;
+  }
+}
+
+@media (max-width: 1512px) {
+  .img-1728 {
+    display: none;
+  }
+  .img-1512 {
+    display: block;
+  }
+}
+
+@media (max-width: 1440px) {
+  .img-1512 {
+    display: none;
+  }
+  .img-1440 {
+    display: block;
+  }
+}
+
+@media (max-width: 1280px) {
+  .img-1440 {
+    display: none;
+  }
+  .img-1280 {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-1280 {
+    display: none;
+  }
+  .img-1024 {
+    display: block;
+  }
+}
+
+@media (max-width: 834px) {
+  .img-1024 {
+    display: none;
+  }
+  .img-834 {
+    display: block;
+  }
+}
+
+@media (max-width: 430px) {
+  .img-834 {
+    display: none;
+  }
+  .img-430 {
+    display: block;
+  }
+}
+
+@media (max-width: 390px) {
+  .img-430 {
+    display: none;
+  }
+  .img-390 {
+    display: block;
+  }
+}
+
+@media (max-width: 360px) {
+  .img-390 {
+    display: none;
+  }
+  .img-360 {
+    display: block;
+  }
+}

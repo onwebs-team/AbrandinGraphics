@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import "./Navbar.scss"
-import logo from './Logo.png'
+
+import logo from './img/Logo.png'
 
 function Navbar(props) {
 
