@@ -17,15 +17,15 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        {/* <Route path='/websites' element={<Websites />}></Route>
-        <Route path='/banners' element={<Banners />}></Route>
-        <Route path='/landing' element={<Landing />}></Route>
-        <Route path='/print' element={<Print />}></Route>
-        <Route path='/logos' element={<Logos />}></Route>
-        <Route path='/presentations' element={<Presentations />}></Route>
-        <Route path='/signs' element={<Signs />}></Route>
+        {/* <Route path='/websites' element={<Websites />}></Route> */}
+        {/* <Route path='/banners' element={<Banners />}></Route> */}
+        {/* <Route path='/landing' element={<Landing />}></Route> */}
+        {/* <Route path='/print' element={<Print />}></Route> */}
+        {/* <Route path='/logos' element={<Logos />}></Route> */}
+        {/* <Route path='/presentations' element={<Presentations />}></Route> */}
+        {/* <Route path='/signs' element={<Signs />}></Route> */}
         <Route path='/socialmedia' element={<SocialMedia />}></Route>
-        <Route path='/merchandise' element={<Merchandise />}></Route> */}
+        {/* <Route path='/merchandise' element={<Merchandise />}></Route> */}
       </Routes>
     </BrowserRouter>
   );
