@@ -5,6 +5,10 @@
         .social-five-pictures {
             display: flex;
             justify-content: center;
+            .social-two-pictures {
+                display: flex;
+                justify-content: center;
+            }
             .social-hightlight {
                 margin-left: 45px;
                 width: 162px;
