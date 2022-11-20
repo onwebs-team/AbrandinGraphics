@@ -7,7 +7,6 @@ import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
-import SignPic from './img/SignPic.jpg'
 import SignPic1920 from './img/Desktop/1920w/SignPic.jpg'
 import SignPic1728 from './img/Macbook/1728w/SignPic.jpg'
 import SignPic1512 from './img/Macbook/1512w/SignPic.jpg'

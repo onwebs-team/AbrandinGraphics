@@ -2,7 +2,6 @@ import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Banners.scss'
-import Post from './img/Post.jpg'
 import Post1920 from './img/Desktop/1920w/Post.jpg'
 import Post1728 from './img/Macbook/1728w/Post.jpg'
 import Post1512 from './img/Macbook/1512w/Post.jpg'
@@ -14,7 +13,6 @@ import Post430 from './img/iPhone/430w/Post.jpg'
 import Post390 from './img/iPhone/390w/Post.jpg'
 import Post360 from './img/Android/Post.jpg'
 
-import Story from './img/Story.jpg'
 import Story1920 from './img/Desktop/1920w/Story.jpg'
 import Story1728 from './img/Macbook/1728w/Story.jpg'
 import Story1512 from './img/Macbook/1512w/Story.jpg'
@@ -26,7 +24,6 @@ import Story430 from './img/iPhone/430w/Story.jpg'
 import Story390 from './img/iPhone/390w/Story.jpg'
 import Story360 from './img/Android/Story.jpg'
 
-import HasbaraPost from './img/HasbaraPost.jpg'
 import HasbaraPost1920 from './img/Desktop/1920w/HasbaraPost.jpg'
 import HasbaraPost1728 from './img/Macbook/1728w/HasbaraPost.jpg'
 import HasbaraPost1512 from './img/Macbook/1512w/HasbaraPost.jpg'
@@ -38,7 +35,6 @@ import HasbaraPost430 from './img/iPhone/430w/HasbaraPost.jpg'
 import HasbaraPost390 from './img/iPhone/390w/HasbaraPost.jpg'
 import HasbaraPost360 from './img/Android/HasbaraPost.jpg'
 
-import TrullionPost from './img/TrullionPost.jpg'
 import TrullionPost1920 from './img/Desktop/1920w/TrullionPost.jpg'
 import TrullionPost1728 from './img/Macbook/1728w/TrullionPost.jpg'
 import TrullionPost1512 from './img/Macbook/1512w/TrullionPost.jpg'

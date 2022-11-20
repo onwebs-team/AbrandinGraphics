@@ -1,4 +1,4 @@
-import React, { useEffect }  from 'react';
+import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Logos.scss'
@@ -7,7 +7,6 @@ import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
-import Picmama1 from './img/Picmama1.jpg'
 import Picmama11920 from './img/Desktop/1920w/Picmama1.jpg'
 import Picmama11728 from './img/Macbook/1728w/Picmama1.jpg'
 import Picmama11512 from './img/Macbook/1512w/Picmama1.jpg'
@@ -19,7 +18,6 @@ import Picmama1430 from './img/iPhone/430w/Picmama1.jpg'
 import Picmama1390 from './img/iPhone/390w/Picmama1.jpg'
 import Picmama1360 from './img/Android/Picmama1.jpg'
 
-import Picmama2 from './img/Picmama2.jpg'
 import Picmama21920 from './img/Desktop/1920w/Picmama2.jpg'
 import Picmama21728 from './img/Macbook/1728w/Picmama2.jpg'
 import Picmama21512 from './img/Macbook/1512w/Picmama2.jpg'
@@ -31,7 +29,6 @@ import Picmama2430 from './img/iPhone/430w/Picmama2.jpg'
 import Picmama2390 from './img/iPhone/390w/Picmama2.jpg'
 import Picmama2360 from './img/Android/Picmama2.jpg'
 
-import Picorbach1 from './img/Picorbach1.jpg'
 import Picorbach11920 from './img/Desktop/1920w/Picorbach1.jpg'
 import Picorbach11728 from './img/Macbook/1728w/Picorbach1.jpg'
 import Picorbach11512 from './img/Macbook/1512w/Picorbach1.jpg'
@@ -43,7 +40,6 @@ import Picorbach1430 from './img/iPhone/430w/Picorbach1.jpg'
 import Picorbach1390 from './img/iPhone/390w/Picorbach1.jpg'
 import Picorbach1360 from './img/Android/Picorbach1.jpg'
 
-import Picorbach2 from './img/Picorbach2.jpg'
 import Picorbach21920 from './img/Desktop/1920w/Picorbach2.jpg'
 import Picorbach21728 from './img/Macbook/1728w/Picorbach2.jpg'
 import Picorbach21512 from './img/Macbook/1512w/Picorbach2.jpg'
@@ -55,7 +51,6 @@ import Picorbach2430 from './img/iPhone/430w/Picorbach2.jpg'
 import Picorbach2390 from './img/iPhone/390w/Picorbach2.jpg'
 import Picorbach2360 from './img/Android/Picorbach2.jpg'
 
-import Picb91 from './img/Picb91.jpg'
 import Picb911920 from './img/Desktop/1920w/Picb91.jpg'
 import Picb911728 from './img/Macbook/1728w/Picb91.jpg'
 import Picb911512 from './img/Macbook/1512w/Picb91.jpg'
@@ -67,7 +62,6 @@ import Picb91430 from './img/iPhone/430w/Picb91.jpg'
 import Picb91390 from './img/iPhone/390w/Picb91.jpg'
 import Picb91360 from './img/Android/Picb91.jpg'
 
-import Picb92 from './img/Picb92.jpg'
 import Picb921920 from './img/Desktop/1920w/Picb92.jpg'
 import Picb921728 from './img/Macbook/1728w/Picb92.jpg'
 import Picb921512 from './img/Macbook/1512w/Picb92.jpg'

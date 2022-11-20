@@ -2,7 +2,6 @@ import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './prints.css'
-import Post from './img-3/Business card.png'
 import Post1920 from './img-3/Desktop/1920w/Business card.png'
 import Post1728 from './img-3/Macbook/1728w/Business card.png'
 import Post1512 from './img-3/Macbook/1512w/Business card.png'
@@ -14,7 +13,6 @@ import Post430 from './img-3/iPhone/430w/Business card.png'
 import Post390 from './img-3/iPhone/390w/Business card.png'
 import Post360 from './img-3/Android/Business card.png'
 
-import HasbaraPost from './img-3/Pic 1.png'
 import HasbaraPost1920 from './img-3/Desktop/1920w/Pic 1.png'
 import HasbaraPost1728 from './img-3/Macbook/1728w/Pic 1.png'
 import HasbaraPost1512 from './img-3/Macbook/1512w/Pic 1.png'
@@ -26,7 +24,6 @@ import HasbaraPost430 from './img-3/iPhone/430w/Pic 1.png'
 import HasbaraPost390 from './img-3/iPhone/390w/Pic 1.png'
 import HasbaraPost360 from './img-3/Android/Pic 1.png'
 
-import HasbaraPost2 from './img-3/Pic 2.png'
 import HasbaraPost21920 from './img-3/Desktop/1920w/Pic 2.png'
 import HasbaraPost21728 from './img-3/Macbook/1728w/Pic 2.png'
 import HasbaraPost21512 from './img-3/Macbook/1512w/Pic 2.png'

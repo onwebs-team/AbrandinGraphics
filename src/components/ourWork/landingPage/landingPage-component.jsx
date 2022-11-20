@@ -2,7 +2,6 @@ import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Landing.scss'
-import MacBookPro161728w from './img/MacBookPro161728w.jpg'
 import MacBookPro161728w1920 from './img/Desktop/1920w/MacBookPro161728w.jpg'
 import MacBookPro161728w1728 from './img/Macbook/1728w/MacBookPro161728w.jpg'
 import MacBookPro161728w1512 from './img/Macbook/1512w/MacBookPro161728w.jpg'
@@ -14,7 +13,6 @@ import MacBookPro161728w430 from './img/iPhone/430w/MacBookPro161728w.jpg'
 import MacBookPro161728w390 from './img/iPhone/390w/MacBookPro161728w.jpg'
 import MacBookPro161728w360 from './img/Android/MacBookPro161728w.jpg'
 
-import iPadPro121024w from './img/iPadPro121024w.jpg'
 import iPadPro121024w1920 from './img/Desktop/1920w/iPadPro121024w.jpg'
 import iPadPro121024w1728 from './img/Macbook/1728w/iPadPro121024w.jpg'
 import iPadPro121024w1512 from './img/Macbook/1512w/iPadPro121024w.jpg'
@@ -26,7 +24,6 @@ import iPadPro121024w430 from './img/iPhone/430w/iPadPro121024w.jpg'
 import iPadPro121024w390 from './img/iPhone/390w/iPadPro121024w.jpg'
 import iPadPro121024w360 from './img/Android/iPadPro121024w.jpg'
 
-import AndroidLarge360w from './img/AndroidLarge360w.jpg'
 import AndroidLarge360w1920 from './img/Desktop/1920w/AndroidLarge360w.jpg'
 import AndroidLarge360w1728 from './img/Macbook/1728w/AndroidLarge360w.jpg'
 import AndroidLarge360w1512 from './img/Macbook/1512w/AndroidLarge360w.jpg'

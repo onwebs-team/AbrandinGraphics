@@ -7,7 +7,6 @@ import Button from '../../button/button2/button2-component'
 import Header from '../header/workHeader-component'
 import Example from '../example/workExample-component'
 
-import PicOnot from './img/PicOnot.jpg'
 import PicOnot1920 from './img/Desktop/1920w/PicOnot.jpg'
 import PicOnot1728 from './img/Macbook/1728w/PicOnot.jpg'
 import PicOnot1512 from './img/Macbook/1512w/PicOnot.jpg'
