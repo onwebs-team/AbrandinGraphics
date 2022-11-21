@@ -44,6 +44,13 @@
 		font-family: 'Ploni ML v2 AAA';
 		font-size: 16px;
 		line-height: 27px;
+		display: flex;
+		align-items: center;
+		img {
+			width: 16px;
+			height: 16px;
+			margin-right: 4px;
+		}
 	}
 }
 
@@ -204,6 +211,7 @@
 				padding-bottom: 20px;
 				font-size: 14px;
 				line-height: 19px;
+				justify-content: center;
 			}
 		}
 	}
