@@ -64,9 +64,9 @@ import IconPresentations1440 from './Icons/Desktop/1440w/IconPresentations.png'
 import IconPresentations1280 from './Icons/Macbook/1280w/IconPresentations.png'
 import IconPresentations1024 from './Icons/Tablet/1024w/IconPresentations.png'
 import IconPresentations834 from './Icons/Tablet/834w/IconPresentations.png'
-// import IconPresentations430 from './Icons/iPhone/430w/IconPresentations.png'
-// import IconPresentations390 from './Icons/iPhone/390w/IconPresentations.png'
-// import IconPresentations360 from './Icons/Android/IconPresentations.png'
+import IconPresentations430 from './Icons/iPhone/430w/IconPresentations.png'
+import IconPresentations390 from './Icons/iPhone/390w/IconPresentations.png'
+import IconPresentations360 from './Icons/Android/IconPresentations.png'
 
 import IconSigns1920 from './Icons/Desktop/1920w/IconSigns.png'
 import IconSigns1728 from './Icons/Macbook/1728w/IconSigns.png'
@@ -190,9 +190,9 @@ function Services(props) {
             img1280: IconPresentations1280,
             img1024: IconPresentations1024,
             img834: IconPresentations834,
-            img430: '',
-            img390: '',
-            img360: '',
+            img430: IconPresentations430,
+            img390: IconPresentations390,
+            img360: IconPresentations360,
             link: '/presentations'
         },
         {
