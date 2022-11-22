@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './Logos.scss'
@@ -75,6 +75,8 @@ import Picb92360 from './img/Android/Picb92.jpg'
 
 
 function LogosComponent(props) {
+
+    useEffect(() => window.scrollTo({top: 0, left: 0}), []);
 
     const navigate = useNavigate();
     const nextPage = () => {
