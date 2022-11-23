@@ -19,7 +19,7 @@ function Header(props) {
                 <div className="header-info">
                     <div className="header-text">
                         <div>we are a</div>
-                        <div>branding & marketing</div>
+                        <div>branding & graphics</div>
                         <div>design studio</div>
                     </div>
                     <div className="header-button">
