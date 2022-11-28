@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss'
-import Button from "../../button/button-component"
+import Button from "../../button/HeaderButton/headerButton-component"
 
 // import ImageHeader from './img/ImageHeader.png'
 import ImageHeader1920 from './img/Desktop/1920w/ImageHeader.png'
