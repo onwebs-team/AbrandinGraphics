@@ -118,11 +118,20 @@
     }
 }
 
+@media (max-width: 430px) {
+    .quote {
+        padding: 109px 0;
+        .the-quote {
+            width: 50%;
+        }
+    }
+}
+
 // Iphone 14
 @media (max-width: 390px) {
     .quote {
         .the-quote {
-            width: 48%;
+            width: 55%;
         }
     }
 }

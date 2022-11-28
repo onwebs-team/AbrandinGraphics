@@ -172,6 +172,14 @@
   // }
 }
 
+@media (max-width: 834px) {
+  .goal {
+    .goal-green {
+      height: 420px;
+    }
+  }
+}
+
 // Iphone 14 Pro Max
 @media (max-width: 700px) {
   .goal {
