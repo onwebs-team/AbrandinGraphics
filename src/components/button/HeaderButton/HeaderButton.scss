@@ -8,13 +8,11 @@
         border-radius: 10px;
         border: 0;
     
-        font-family: 'Acherus Feral Bold';
+        font-family: 'Poppins SemiBold';
         font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 65px;
+        font-size: 16px;
+        line-height: 24px;
         text-align: center;
-        letter-spacing: 0.06em;
         transition: 200ms ease-in-out;
     }
 
@@ -36,8 +34,8 @@
             width: 274.52px;
             height: 58.5px;
             border-radius: 9px;
-            font-size: 12px;
-            line-height: 55px;
+            font-size: 14px;
+            line-height: 21px;
         }
     }
 }
@@ -55,6 +53,26 @@
     }
 }
 
+// Desktop
+@media (max-width: 1440px) {
+    .button {
+        button {
+            font-size: 13px;
+            line-height: 19px;
+        }
+    }
+}
+
+// Macbook Air
+@media (max-width: 1440px) {
+    .button {
+        button {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+}
+
 // IPad Pro 12.9
 @media (max-width: 1024px) {
     .button {
@@ -62,23 +80,13 @@
             width: 228.63px;
             height: 48.72px;
             border-radius: 7.4961px;
-            font-size: 11.5px;
-            line-height: 50px;
+            font-size: 13px;
+            line-height: 19px;
         }
     }
     .work-button {
         text-align: center;
         margin-top: 90px;
         padding-bottom: 90px;
-    }
-}
-
-@media (max-width: 430px) {
-    .button {
-        button {
-            width: 213px;
-            height: 48.77px;
-            font-size: 11.5px;
-        }
     }
 }
