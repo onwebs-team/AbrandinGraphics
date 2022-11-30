@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './clients.css';
 
-let onwebs = require('./img2/Onweb.png');
+let onwebs = require('./img2/Onwebs.png');
 let primis = require('./img2/Primis.png');
 let cobwebs = require('./img2/Cobwebs.png');
 let trullion = require('./img2/Trullion.png');
