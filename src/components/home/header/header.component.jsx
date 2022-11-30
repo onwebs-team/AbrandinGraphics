@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss'
-import Button from "../../button/HeaderButton/headerButton-component"
+import HeaderButton from "../../button/HeaderButton/headerButton-component"
 
 // import ImageHeader from './img/ImageHeader.png'
 import ImageHeader1920 from './img/Desktop/1920w/ImageHeader.png'
@@ -23,7 +23,7 @@ function Header(props) {
                         <div>design studio</div>
                     </div>
                     <div className="header-button">
-                        <Button text={'CONTACT US'} work={scroll} />
+                        <HeaderButton text={'CONTACT US'} work={scroll} />
                     </div>
                 </div>
                 <div className="header-photo">

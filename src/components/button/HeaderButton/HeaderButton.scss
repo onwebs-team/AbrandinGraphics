@@ -1,4 +1,4 @@
-.button {
+.header-button {
     button {
         width: 305px;
         height: 65px;
@@ -29,7 +29,7 @@
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-    .button {
+    .header-button {
         button {
             width: 274.52px;
             height: 58.5px;
@@ -42,7 +42,7 @@
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    .button {
+    .header-button {
         button {
             width: 210.11px;
             height: 44.78px;
@@ -55,7 +55,7 @@
 
 // Desktop
 @media (max-width: 1440px) {
-    .button {
+    .header-button {
         button {
             font-size: 13px;
             line-height: 19px;
@@ -65,7 +65,7 @@
 
 // Macbook Air
 @media (max-width: 1440px) {
-    .button {
+    .header-button {
         button {
             font-size: 14px;
             line-height: 21px;
@@ -75,7 +75,7 @@
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    .button {
+    .header-button {
         button {
             width: 228.63px;
             height: 48.72px;
@@ -88,5 +88,17 @@
         text-align: center;
         margin-top: 90px;
         padding-bottom: 90px;
+    }
+}
+
+// Iphone
+@media (max-width: 430px) {
+    .header-button {
+        button {
+            width: 214px;
+            height: 48.77px;
+            border-radius: 7.50346px;
+            font-size: 13px;
+        }
     }
 }

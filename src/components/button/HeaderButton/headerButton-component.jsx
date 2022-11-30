@@ -1,15 +1,15 @@
 import React from 'react';
 import './HeaderButton.scss'
 
-function Button(props) {
+function HeaderButton(props) {
 
     const behavior = () => props.work();
 
     return (
-        <div className='button'>
+        <div className='header-button'>
             <button onClick={behavior}>{props.text}</button>
         </div>
     );
 }
 
-export default Button;
+export default HeaderButton;
