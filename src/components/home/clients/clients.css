@@ -1,4 +1,169 @@
-.client {
+.slider-area {
+  display: flex;
+  width: auto;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 180px;
+  padding: 1rem;
+}
+.slider-area .wrapper {
+  display: flex;
+  width: auto;
+  height: 30px;
+  margin: 0 auto;
+  margin-left: 4rem;
+
+  padding: 3rem;
+}
+
+.item {
+  animation: animate 30s alternate linear infinite;
+}
+.container:hover .item {
+  animation-play-state: calc(-250 * 30);
+}
+@keyframes animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-2100px, 0, 0);
+  }
+}
+
+/* MacBook Pro 16 */
+@media (max-width: 1728px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 146px;
+    height: 28px;
+  }
+  .slider-area .wrapper {
+    width: 90%;
+
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* MacBook Pro 14 */
+@media (max-width: 1512px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 129px;
+    height: 25px;
+  }
+  .slider-area .wrapper {
+    width: 90%;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 106px;
+    height: 28px;
+  }
+  .slider-area .wrapper {
+    width: 90%;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* MacBook Pro air */
+@media (max-width: 1280px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 121px;
+    height: 23px;
+  }
+  .slider-area .wrapper {
+    width: 90%;
+    margin-left: 10rem;
+  }
+}
+
+/* IPad Pro 12.9 */
+@media (max-width: 1024px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 105px;
+    height: 27px;
+  }
+  .slider-area {
+    width: 93%;
+  }
+}
+
+/* IPad Pro 11 */
+@media (max-width: 834px) {
+  .slider-area .wrapper img {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 105px;
+    height: 20px;
+  }
+  .slider-area .wrapper {
+    width: 93%;
+  }
+}
+
+/* Iphone 14 Pro Max */
+@media (max-width: 430px) {
+  .slider-area .wrapper .item {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 120px;
+    height: 25px;
+  }
+  .slider-area .wrapper {
+    width: 80%;
+    margin-left: 0%;
+  }
+}
+
+/* Iphone 14 */
+@media (max-width: 390px) {
+  .slider-area .wrapper .item {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 120px;
+    height: 25px;
+  }
+  .slider-area .wrapper {
+    width: 80%;
+    margin-left: 0%;
+  }
+}
+
+/* Android Large */
+@media (max-width: 360px) {
+  .slider-area .wrapper .item {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 95px;
+    height: 20px;
+  }
+  .slider-area .wrapper {
+    width: 80%;
+    margin-left: 0rem;
+  }
+}
+
+
+/* .client {
   text-align: center;
 }
 .client-header {
@@ -31,7 +196,6 @@
   margin-top: 3rem;
 }
 
-/* MacBook Pro 16 */
 @media (max-width: 1728px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -46,7 +210,6 @@
   }
 }
 
-/* MacBook Pro 14 */
 @media (max-width: 1512px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -61,7 +224,6 @@
   }
 }
 
-/* Desktop */
 @media (max-width: 1440px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -76,7 +238,6 @@
   }
 }
 
-/* MacBook Pro air */
 @media (max-width: 1280px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -91,7 +252,6 @@
   }
 }
 
-/* IPad Pro 12.9 */
 @media (max-width: 1024px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -106,7 +266,6 @@
   }
 }
 
-/* IPad Pro 11 */
 @media (max-width: 834px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -121,7 +280,6 @@
   }
 }
 
-/* Iphone 14 Pro Max */
 @media (max-width: 430px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -136,7 +294,6 @@
   }
 }
 
-/* Iphone 14 */
 @media (max-width: 390px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -151,7 +308,6 @@
   }
 }
 
-/* Android Large */
 @media (max-width: 360px) {
   .mainContainer .container img {
     margin-bottom: 2rem;
@@ -164,4 +320,4 @@
     margin-left: 0rem;
     width: 93%;
   }
-}
+} */
