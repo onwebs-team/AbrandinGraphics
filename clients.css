@@ -1,0 +1,628 @@
+/* 
+* {
+    box-sizing: border-box;
+}
+
+.client{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 7fr));
+    grid-gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    overflow: hidden; 
+    position: relative;
+    width: auto; 
+ 
+   
+} */
+/* .client .row img {
+    display: block;
+  max-width: 100%;
+  height: 70px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 75px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  
+
+
+}  */
+
+
+
+/* @keyframes scroll {
+    0% {
+        transform:translate3d(0,0,0);
+    }
+    100% {
+        transform :translate3d(calc(-1100px,0,0));
+       
+
+
+    }
+     /* */
+/* } */ 
+/* 
+.client .row{
+    animation: scroll 8s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+   
+ */
+
+
+
+/* 
+
+   animation: scroll 5s linear infinite;
+    display: flex;
+    width: calc(250px * 2);
+    transform: translate(0, 100%);
+    top: 50%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap; 
+
+
+ } */
+/* .client .slide {
+    height: 100px;
+    width: 250px;
+}
+ */
+
+
+/* 
+* {
+    box-sizing: border-box;
+}
+
+
+.client {
+    text-align: center;
+  }
+  
+  */
+  
+  
+/*   
+  .client-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  
+  
+  
+  
+  .mainContainer{
+    margin: 10px;
+  }
+  
+  .mainContainer .container{
+    padding: 40px 0;
+  }
+  
+  .mainContainer .container img{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  
+  
+   */
+ 
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+   .slider-area  {
+
+    display: flex;
+    width: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 180px;
+    padding: 1rem;
+  
+  }
+  .slider-area .wrapper  {
+    display: flex;
+    width: auto;
+      height: 30px;
+    margin: 0 auto;
+      margin-left: 4rem;
+    
+  
+    padding: 3rem;
+  }
+    .slider-area  {
+
+    display: flex;
+    width: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 180px;
+    padding: 1rem;
+  
+  }
+  .slider-area .wrapper  {
+    display: flex;
+    width: auto;
+      height: 30px;
+    margin: 0 auto;
+      margin-left: 4rem;
+    
+  
+    padding: 3rem;
+  }
+  
+  
+  
+  .item {
+    animation: animate 30s   linear infinite;
+  }
+  .container:hover .item {
+    animation-play-state:calc(-250*14);
+  }
+  @keyframes animate {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-2100px, 0, 0);
+    }
+  }
+   */
+  
+   /* MacBook Pro 16 */
+   @media (max-width: 1920px) {
+     
+    .slider-area .wrapper img {
+    
+    
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+        width: 146px;
+        height: 28px;
+      
+        }
+        .slider-area .wrapper{
+    
+            
+       width: 90%;
+        
+       margin-left: 10rem;
+       margin-bottom: 2rem;
+       margin-top: 2rem;        
+        
+            
+        
+              
+            }
+
+}
+  
+  /* MacBook Pro 16 */
+  @media (max-width: 1728px) {
+     
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 146px;
+          height: 28px;
+        
+          }
+          .slider-area .wrapper{
+      
+              
+         width: 90%;
+          
+         margin-left: 10rem;
+         margin-bottom: 2rem;
+         margin-top: 2rem;        
+          
+              
+          
+                
+              }
+  
+  }
+  
+  /* MacBook Pro 14 */
+  @media (max-width: 1512px) {
+     
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 129px;
+          height: 25px;
+            
+            
+          }
+          .slider-area .wrapper{
+      
+              
+         width: 90%;
+         margin-left: 10rem;
+         margin-bottom: 2rem;
+         margin-top: 2rem;
+          
+              }
+          
+      
+  }
+  
+  /* Desktop */
+  @media (max-width: 1440px) {
+      
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 106px;
+          height: 28px;
+            
+            
+          }
+          .slider-area .wrapper{
+      
+              
+         width: 90%;
+         margin-left: 10rem;
+         margin-bottom: 2rem;
+         margin-top: 2rem;
+  
+          
+              }
+        
+             
+      
+  }
+  
+  /* MacBook Pro air */
+  @media (max-width: 1280px) {
+    
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 121px;
+          height: 23px;
+            
+            
+          }
+          .slider-area .wrapper{
+      
+              
+         width: 90%;
+         margin-left: 10rem;
+          
+              }
+      
+      
+  }
+  
+  /* IPad Pro 12.9 */
+  @media (max-width: 1024px) {
+    
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 105px;
+          height: 27px;
+            
+            
+          }
+          .slider-area  {
+      
+              
+         width: 93%;
+          
+              }
+              
+      
+  }
+  
+  /* IPad Pro 11 */
+  @media (max-width: 834px) {
+    
+      .slider-area .wrapper img {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 105px;
+          height: 20px;
+        
+          }
+          .slider-area .wrapper{
+      
+              
+         width: 93%;
+          
+                
+              }
+      
+  }
+  
+  /* Iphone 14 Pro Max */
+  @media (max-width: 430px) {
+  
+    
+      .slider-area .wrapper .item {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 120px;
+          height: 25px;
+        
+          }
+         .slider-area .wrapper {
+             width: 80%;
+             margin-left: 0%;
+         }
+            
+          
+      
+  }
+  
+  /* Iphone 14 */
+  @media (max-width: 390px) {
+      
+      .slider-area .wrapper .item {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 120px;
+          height: 25px;
+        
+          }
+         .slider-area .wrapper {
+             width: 80%;
+             margin-left: 0%;
+             
+         }
+            
+         
+      
+  }
+  
+  /* Android Large */
+  @media (max-width: 360px) {
+     
+  
+  
+     
+  
+      .slider-area .wrapper .item {
+      
+      
+          margin-bottom: 1rem;
+          margin-top: 0rem;
+          width: 95px;
+          height: 20px;
+  
+        
+          }
+         .slider-area .wrapper {
+             width: 80%;
+             margin-left: 0rem;
+         }
+        
+            
+      
+      
+          
+      
+            
+          }
+         
+     
+
+
+
+
+
+
+
+          /* body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 28px;
+            color: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+          } */
+          
+          /* ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+          } */
+          
+       
+          
+         
+ 
+
+
+
+
+/* 
+          
+
+
+
+          .carousel-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .carousel-wrapper {
+            display: flex;
+            width: 100%;
+            position: relative;
+        }
+        
+        .carousel-content-wrapper {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .carousel-content {
+            display: flex;
+            transition: all 250ms linear;
+            -ms-overflow-style: none;  
+            scrollbar-width: none;  hide scrollbar in Firefox */
+        
+        
+        /* hide scrollbar in webkit browser */
+        /* .carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .carousel-content > * {
+            width: 100%;
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        
+        .carousel-content.show-2 > * {
+            width: 50%;
+        }
+        
+        .carousel-content.show-3 > * {
+            width: calc(100% / 3);
+        }
+        
+        .carousel-content.show-4 > * {
+            width: calc(100% / 4);
+        }
+        
+        .left-arrow, .right-arrow {
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            background-color: white;
+            border: 1px solid #ddd;
+        }
+        
+        .left-arrow {
+            left: 24px;
+        }
+        
+        .right-arrow {
+            right: 24px;
+        }
+        
+        @media (hover: none) and (pointer: coarse) {
+            .left-arrow, .right-arrow {
+                display: none;
+            }
+        } */
+
+
+
+
+  .carousel__list.carousel__item  {
+    display: flex;
+    justify-content: center;
+   
+    height: 100px;
+  }
+  
+  
+  
+  .carousel__list .carousel__item img  {
+   
+    width: 120px;
+      height: 30px;
+    margin: 0 auto;
+      margin-left: 4rem;
+    
+  
+ 
+  }
+
+
+ 
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel__slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 200px;
+  }
+  
+  
+  .carousel__list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  
+  
+  
+  
