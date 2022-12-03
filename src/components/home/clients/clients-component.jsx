@@ -8,36 +8,45 @@ let trullion = require('./img2/Trullion.png');
 let hasbara = require('./img2/Logo hasbara.png');
 let medina = require('./img2/Logo medina.png');
 
-const Clients = (props) => {
+const Clients = () => {
 
   const InfiniteSlider = function() {
 
     const ImagesContainer = document.querySelector('.clients');
-    const ImagesScrollWidth = ImagesContainer.scrollWidth;
     const windowWidth = window.innerWidth
+    const offsetWidth = ImagesContainer.offsetWidth;
+    const scrollWidth = ImagesContainer.scrollWidth;
 
-    let speed = 0
+    let speedPixel = 0
+    let repeatEveryMSec = 0
     if(windowWidth > 1512) {
-      speed = 2
+      speedPixel = 2
+      repeatEveryMSec = 10
+    } else if(windowWidth <= 1512 && windowWidth > 1000) {
+      speedPixel = 1
+      repeatEveryMSec = 10
     } else {
-      speed = 1
+      speedPixel = 1
+      repeatEveryMSec = 15
     }
     
     let width = 0;
 
-    const slider = function(scroll) {
+    const slider = function(scroll, repeatEveryMSec) {
       const interval = setInterval(() => {
           ImagesContainer.scrollBy(scroll, 0);
           width += scroll;
-          if(width > ImagesScrollWidth-(ImagesScrollWidth/10)-(ImagesScrollWidth/10)) {
+          console.log(offsetWidth + ImagesContainer.scrollLeft);
+          console.log('scrollWidth = '+scrollWidth);
+          if(offsetWidth + ImagesContainer.scrollLeft >= scrollWidth) {
             clearInterval(interval);
             width = 0
             ImagesContainer.scrollTo({top: 0, left: 0});
             slider(scroll)
           }
-      }, 10);
+      }, repeatEveryMSec);
     }
-    slider(speed);
+    slider(speedPixel, repeatEveryMSec);
   }
 
   useEffect(() => {
