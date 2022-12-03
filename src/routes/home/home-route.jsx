@@ -12,15 +12,15 @@ import ContactUs from '../../components/contactUs/blackContactUs';
 function Home(props) {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar />
             <Header />
             <Services />
             <Branding />
             <Rebranding />
-            <Quote />
+            <Quote /> */}
             <Clients />
-            <Goal/>
-            <ContactUs />
+            {/* <Goal/>
+            <ContactUs /> */}
         </div>
     );
 }

@@ -10,12 +10,26 @@ let medina = require('./img2/Logo medina.png');
 
 const Clients = () => {
 
-  const InfiniteSlider = function() {
+  const slider = function(speedPixel, repeatEveryMSec) {
 
     const ImagesContainer = document.querySelector('.clients');
-    const windowWidth = window.innerWidth
     const offsetWidth = ImagesContainer.offsetWidth;
     const scrollWidth = ImagesContainer.scrollWidth;
+
+    const interval = setInterval(() => {
+        ImagesContainer.scrollBy(speedPixel, 0);
+        if(offsetWidth + ImagesContainer.scrollLeft >= scrollWidth) {
+          clearInterval(interval);
+          ImagesContainer.scrollTo({top: 0, left: 0});
+          slider(speedPixel, repeatEveryMSec)
+        }
+    }, repeatEveryMSec);
+  }
+
+  const InfiniteSlider = function() {
+
+    const windowWidth = window.innerWidth
+    console.log(windowWidth)
 
     let speedPixel = 0
     let repeatEveryMSec = 0
@@ -28,23 +42,6 @@ const Clients = () => {
     } else {
       speedPixel = 1
       repeatEveryMSec = 15
-    }
-    
-    let width = 0;
-
-    const slider = function(scroll, repeatEveryMSec) {
-      const interval = setInterval(() => {
-          ImagesContainer.scrollBy(scroll, 0);
-          width += scroll;
-          console.log(offsetWidth + ImagesContainer.scrollLeft);
-          console.log('scrollWidth = '+scrollWidth);
-          if(offsetWidth + ImagesContainer.scrollLeft >= scrollWidth) {
-            clearInterval(interval);
-            width = 0
-            ImagesContainer.scrollTo({top: 0, left: 0});
-            slider(scroll)
-          }
-      }, repeatEveryMSec);
     }
     slider(speedPixel, repeatEveryMSec);
   }
