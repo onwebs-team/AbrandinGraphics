@@ -10,7 +10,7 @@ let medina = require('./img2/Logo medina.png');
 
 const Clients = () => {
 
-  const slider = function(speedPixel, repeatEveryMSec) {
+  const sliderAnimation = function(speedPixel, repeatEveryMSec) {
 
     const ImagesContainer = document.querySelector('.clients');
     const offsetWidth = ImagesContainer.offsetWidth;
@@ -21,15 +21,14 @@ const Clients = () => {
         if(offsetWidth + ImagesContainer.scrollLeft >= scrollWidth) {
           clearInterval(interval);
           ImagesContainer.scrollTo({top: 0, left: 0});
-          slider(speedPixel, repeatEveryMSec)
+          sliderAnimation(speedPixel, repeatEveryMSec)
         }
     }, repeatEveryMSec);
   }
 
-  const InfiniteSlider = function() {
+  const sliderSpeed = function() {
 
     const windowWidth = window.innerWidth
-    console.log(windowWidth)
 
     let speedPixel = 0
     let repeatEveryMSec = 0
@@ -43,11 +42,11 @@ const Clients = () => {
       speedPixel = 1
       repeatEveryMSec = 15
     }
-    slider(speedPixel, repeatEveryMSec);
+    sliderAnimation(speedPixel, repeatEveryMSec);
   }
 
   useEffect(() => {
-    InfiniteSlider()
+    sliderSpeed()
   }, [])
 
   const images = [
