@@ -46,7 +46,7 @@ const Clients = () => {
   }
 
   useEffect(() => {
-    // sliderSpeed()
+    sliderSpeed()
   }, [])
 
   const images = [
