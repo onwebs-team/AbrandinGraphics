@@ -15,23 +15,21 @@ const Clients = (props) => {
     const ImagesContainer = document.querySelector('.clients');
     const ImagesScrollWidth = ImagesContainer.scrollWidth;
     const windowWidth = window.innerWidth
+
     let speed = 0
     if(windowWidth > 1512) {
-      speed = 3
-    } else if (windowWidth < 1512 && windowWidth > 1000) {
       speed = 2
     } else {
       speed = 1
     }
-    console.log(speed)
+    
     let width = 0;
 
     const slider = function(scroll) {
       const interval = setInterval(() => {
-          ImagesContainer.scrollBy(scroll, 0); // X,Y Number
+          ImagesContainer.scrollBy(scroll, 0);
           width += scroll;
-          // console.log(width)
-          if(width > ImagesScrollWidth-3000) {
+          if(width > ImagesScrollWidth-(ImagesScrollWidth/10)-(ImagesScrollWidth/10)) {
             clearInterval(interval);
             width = 0
             ImagesContainer.scrollTo({top: 0, left: 0});
@@ -75,6 +73,11 @@ const Clients = (props) => {
 
   return (
     <div className="clients">
+      {images.map((img,i) =>
+        <div key={i}  className="client">
+          <img src={img.desktop} className={img.name}/>
+        </div>
+      )}
       {images.map((img,i) =>
         <div key={i}  className="client">
           <img src={img.desktop} className={img.name}/>
