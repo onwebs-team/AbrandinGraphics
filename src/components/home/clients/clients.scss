@@ -1,0 +1,246 @@
+.clients {
+  display: flex;
+  overflow: hidden;
+  height: 430px;
+  align-items: center;
+  padding: 0 200px;
+  .client {
+    img {
+      margin: 0 140px;
+      height: 47px;
+    }
+    .onwebs {
+      height: 35px;
+    }
+    .primis {
+      height: 40px;
+    }
+    .cobwebs {
+      height: 32px;
+    }
+    .trullion {
+      height: 47px;
+    }
+    .hasbara {
+      height: 47px;
+    }
+    .medina {
+      height: 47px;
+    }
+  }
+}
+
+// MacBook Pro 16
+@media (max-width: 1728px) {
+  .clients {
+    height: 353px;
+    padding: 0 160px;
+    .client {
+      img {
+        margin: 0 110px;
+        height: 42px;
+      }
+      .onwebs {
+        height: 28px;
+      }
+      .primis {
+        height: 32px;
+      }
+      .cobwebs {
+        height: 25px;
+      }
+      .trullion {
+        height: 42px;
+      }
+      .hasbara {
+        height: 42px;
+      }
+      .medina {
+        height: 42px;
+      }
+    }
+  }
+}
+
+// MacBook Pro 14
+@media (max-width: 1512px) {
+  .clients {
+    height: 302px;
+    padding: 0 180px;
+    .client {
+      img {
+        margin: 0 95px;
+        height: 37px;
+      }
+      .onwebs {
+        height: 25px;
+      }
+      .primis {
+        height: 29px;
+      }
+      .cobwebs {
+        height: 21px;
+      }
+      .trullion {
+        height: 37px;
+      }
+      .hasbara {
+        height: 37px;
+      }
+      .medina {
+        height: 37px;
+      }
+    }
+  }
+}
+
+// Desktop
+@media (max-width: 1440px) {
+  .clients {
+    height: 292px;
+    padding: 0 50px;
+    .client {
+      img {
+        margin: 0 105px;
+        height: 35px;
+      }
+      .onwebs {
+        height: 23px;
+      }
+      .primis {
+        height: 28px;
+      }
+      .cobwebs {
+        height: 20px;
+      }
+      .trullion {
+        height: 35px;
+      }
+      .hasbara {
+        height: 35px;
+      }
+      .medina {
+        height: 35px;
+      }
+    }
+  }
+}
+
+// MacBook Pro air
+@media (max-width: 1280px) {
+  .clients {
+    height: 260px;
+    padding: 0 70px;
+    .client {
+      img {
+        margin: 0 88px;
+        height: 31px;
+      }
+      .onwebs {
+        height: 21px;
+      }
+      .primis {
+        height: 25px;
+      }
+      .cobwebs {
+        height: 18px;
+      }
+      .trullion {
+        height: 31px;
+      }
+      .hasbara {
+        height: 31px;
+      }
+      .medina {
+        height: 31px;
+      }
+    }
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 1024px) {
+  .clients {
+    height: 243px;
+    padding: 0 40px;
+    .client {
+      img {
+        margin: 0 95px;
+        height: 35px;
+      }
+      .onwebs {
+        height: 23px;
+      }
+      .primis {
+        height: 28px;
+      }
+      .cobwebs {
+        height: 20px;
+      }
+      .trullion {
+        height: 35px;
+      }
+      .hasbara {
+        height: 35px;
+      }
+      .medina {
+        height: 35px;
+      }
+    }
+  }
+}
+
+// IPad
+@media (max-width: 834px) {
+  .clients {
+    padding: 0 40px;
+    .client {
+      img {
+        margin: 0 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .clients {
+    height: 155px;
+    padding: 0 40px;
+    .client {
+      img {
+        margin: 0 45px;
+        height: 23px;
+      }
+      .onwebs {
+        height: 18px;
+      }
+      .primis {
+        height: 22px;
+      }
+      .cobwebs {
+        height: 16px;
+      }
+      .trullion {
+        height: 23px;
+      }
+      .hasbara {
+        height: 23px;
+      }
+      .medina {
+        height: 23px;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .clients {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .clients {
+    padding: 0 10px;
+  }
+}
