@@ -10,7 +10,7 @@ To install and run the project, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/omarobaisi/AbrandinGraphics.git
+git clone https://github.com/onwebs-team/AbrandinGraphics.git
 
 2. Install the dependencies:
 npm install
