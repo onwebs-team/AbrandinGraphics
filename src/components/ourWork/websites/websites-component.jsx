@@ -2,16 +2,17 @@ import React, { useEffect }  from 'react';
 import { useNavigate } from "react-router-dom";
 
 import './website.css'
-import pic11920 from './img-2/Desktop/1920w/Collection SS22.jpg'
-import pic11728 from './img-2/Macbook/1728w/Collection SS22.jpg'
-import pic11512 from './img-2/Macbook/1512w/Collection SS22.jpg'
-import pic11440 from './img-2/Desktop/1440w/Collection SS22.jpg'
-import pic11280 from './img-2/Macbook/1280w/Collection SS22.jpg'
-import pic11024 from './img-2/Tablet/1024w/Collection SS22.png'
-import pic1834 from './img-2/Tablet/834w/Collection SS22.png'
-import pic1430 from './img-2/iPhone/430w/Collection SS22.jpg'
-import pic1390 from './img-2/iPhone/390w/Collection SS22.jpg'
-import pic1360 from './img-2/Android/Collection SS22.jpg'
+import pic1 from './img-2/Collection SS22.webp'
+// import pic11920 from './img-2/Desktop/1920w/Collection SS22.jpg'
+// import pic11728 from './img-2/Macbook/1728w/Collection SS22.jpg'
+// import pic11512 from './img-2/Macbook/1512w/Collection SS22.jpg'
+// import pic11440 from './img-2/Desktop/1440w/Collection SS22.jpg'
+// import pic11280 from './img-2/Macbook/1280w/Collection SS22.jpg'
+// import pic11024 from './img-2/Tablet/1024w/Collection SS22.png'
+// import pic1834 from './img-2/Tablet/834w/Collection SS22.png'
+// import pic1430 from './img-2/iPhone/430w/Collection SS22.jpg'
+// import pic1390 from './img-2/iPhone/390w/Collection SS22.jpg'
+// import pic1360 from './img-2/Android/Collection SS22.jpg'
 
 import pic21920 from './img-2/Desktop/1920w/Hompage.jpg'
 import pic21728 from './img-2/Macbook/1728w/Hompage.jpg'
@@ -62,7 +63,8 @@ function WebsitesComponent(props) {
                 </div>
 
                 <div className="website-pictures">
-                    <div className='img-1920'><img className='website-hasbara' src={pic11920} alt="" /></div>
+                    <img className='website-hasbara' src={pic1} alt="" />
+                    {/* <div className='img-1920'><img className='website-hasbara' src={pic11920} alt="" /></div>
                     <div className='img-1728'><img className='website-hasbara' src={pic11728} alt="" /></div>
                     <div className='img-1512'><img className='website-hasbara' src={pic11512} alt="" /></div>
                     <div className='img-1440'><img className='website-hasbara' src={pic11440} alt="" /></div>
@@ -71,7 +73,7 @@ function WebsitesComponent(props) {
                     <div className='img-834'><img className='website-hasbara' src={pic1834} alt="" /></div>
                     <div className='img-430'><img className='website-hasbara' src={pic1430} alt="" /></div>
                     <div className='img-390'><img className='website-hasbara' src={pic1390} alt="" /></div>
-                    <div className='img-360'><img className='website-hasbara' src={pic1360} alt="" /></div>
+                    <div className='img-360'><img className='website-hasbara' src={pic1360} alt="" /></div> */}
                 </div>
                
             </div>
