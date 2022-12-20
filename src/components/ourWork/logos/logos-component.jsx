@@ -145,10 +145,10 @@ function LogosComponent(props) {
                     <div className='img-360'><img className='logos-img logos-img-right' src={Picorbach2360} alt="" /></div>
                 </div>
                 <div className='new-example'>
-                    <Example 
-                        first='An example of logo for the "Mama" winery,' 
-                        second='an Italian family winery from the Golan Mountains.' 
-                        third='We took the letters M and A and arranged them in an interesting way. The burgundy color is classic and romantic. Just like wine.' 
+                   <Example 
+                        first='An example of a logo for “Balfour 9”.' 
+                        second='A  new real estate project in Israel.' 
+                        third='We decided to design the logo typographically, to use a letter and a number and create a Bauhaus feel.' 
                     />
                 </div>
                 <div className="logos-two-pictures">
