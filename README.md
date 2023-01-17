@@ -1,8 +1,8 @@
 # AbrandingGraphics
 
-This is the source code for AbrandinGraphics which was a client of mine, designed using Figma and built using React. The live website can be viewed at http://abrandingraphics.com/.
+This is the source code for AbrandinGraphics which was a client, designed using Figma and built using React. The live website can be viewed at http://abrandingraphics.com/.
 
-**IMPORTANT:** The design of this website is copyrighted and all rights are reserved.
+**IMPORTANT:** This website is copyrighted and all rights are reserved.
 
 ## Installation
 
